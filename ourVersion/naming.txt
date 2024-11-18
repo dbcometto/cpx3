@@ -1,0 +1,6 @@
+Naming System
+
+1. Go into providedThings and copy header file
+2. Paste into ourVersion
+3. rename same as current .p version
+4. rename .p version to p#-2EPB_filename.p
