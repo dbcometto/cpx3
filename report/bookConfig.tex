@@ -1,0 +1,78 @@
+%%%%%%%%%%%%%% Packages %%%%%%%%%%%%%%%%
+
+\usepackage[colorlinks=true,
+    linkcolor=blue]{hyperref}
+\usepackage{endnotes}
+
+%%%%%%%%%%%%%% Page Formating %%%%%%%%%%%%%
+\setlength{\parskip}{1em}
+
+%%%%%%%%%%%%%% Custom Environments %%%%%%%%%%
+
+\newenvironment{learningobj}
+{
+	\rule{\textwidth}{.6pt}
+	
+	\vspace{8pt} 
+	
+	\textbf{\Large{Learning Objectives:}}
+}
+{\rule{\textwidth}{.6pt}
+\vspace{8pt}}
+
+\newenvironment{exprob}
+{
+	\rule{\textwidth}{2pt}
+	
+	\vspace{8pt} 
+	
+	\textbf{\Large{Example Problem}}
+	
+}
+{\rule{\textwidth}{2pt}
+\vspace{8pt}}
+
+
+%%%%%%%%%%%%%% Block Quotes %%%%%%%%%%%%%%%%
+\newcommand\blockquote[2]{
+	\renewcommand\arraystretch{1.25}
+	\vspace{12pt}
+	\hspace{0.07\linewidth}%
+		\begin{tabular}{| p{0.8\linewidth}}
+			\emph{#1 } \\
+			\hspace{\fill} – #2
+		\end{tabular} 
+	\vspace{12pt}
+						}
+
+% put a box around text
+\newcommand\boxtext[1]{
+	\begin{center}
+	\fbox{\parbox{0.85\textwidth}{
+	\hspace{12pt}%
+	\begin{minipage}{0.8\textwidth}
+	\vspace{8pt}
+	#1
+	\vspace{8pt}
+	\end{minipage}
+	} % end parbox
+	} % end fbox
+	\end{center}	
+}
+
+% key concept box
+\newcommand\keyconcept[1]{
+	\begin{center}
+	\fbox{\parbox{0.85\textwidth}{
+	\hspace{12pt}%
+	\begin{minipage}{0.8\textwidth}
+	\vspace{8pt}
+	\textbf{Key Concept:}
+	
+	#1
+	\vspace{8pt}
+	\end{minipage}
+	} % end parbox
+	} % end fbox
+	\end{center}	
+}					
