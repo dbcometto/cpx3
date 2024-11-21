@@ -5,14 +5,17 @@ function [data_upsampled] = upsampling(data, upsample_by)
 %    can be done my (1) padding with zeroes between samples
 %    (2) then low pass filter to remove the signal "images" created
 %
-% by ***Author***
+% by Ben Cometto
 %
 %   INPUTS
 %       data:           4 channel raw data from the phased array
 %       upsample_by:    upsample rate (currently only supports "2")
 %   OUTPUTS
 %       data_upsampled:           modified data
-%
+
+data_upsampled = data;
+
+
 
 
 
