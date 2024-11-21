@@ -680,11 +680,11 @@ INPUT ./04-block4.tex
 INPUT ./05-block5.tex
 INPUT ./05-block5.tex
 INPUT ./05-block5.tex
-INPUT ./06-Conclusion.tex
-INPUT ./06-Conclusion.tex
-INPUT ./06-Conclusion.tex
-INPUT ./06-Conclusion.tex
-INPUT ./06-Conclusion.tex
+INPUT ./06-conclusion.tex
+INPUT ./06-conclusion.tex
+INPUT ./06-conclusion.tex
+INPUT ./06-conclusion.tex
+INPUT ./06-conclusion.tex
 INPUT auxiliary/main.aux
 INPUT auxiliary/main.out
 INPUT auxiliary/main.out

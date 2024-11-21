@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  21 NOV 2024 01:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  21 NOV 2024 01:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1480,7 +1480,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 68.
 
 [7] (./05-block5.tex)
 
-[8] (./06-Conclusion.tex)
+[8] (./06-conclusion.tex)
 
 [9] 
 enddocument/afterlastpage: lastpage setting LastPage.
