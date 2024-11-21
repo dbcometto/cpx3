@@ -2,17 +2,7 @@
 
 \section{Conclusion}
 
-For each of the five signals provided for Computer Exercise 2 (CPX 2), the processing goal was met with a filter of minimum order.  In summary, in Signal $x_1$, the louder tone was attenuated so that the quieter tone was more than $30 \unit{dB}$ greater in magnitude.  In Signal $x_8$, the secrets of extracting sunshine from cucumbers was revelaed after an attempted jamming.  In Signal $x_3$, interference from a power line in an electrocardiogram (ECG) was removed.  In Signal $x_4$, the secret to a good life according to Conan the Barbarian was revealed after another attempted jamming.  In Signal $x_7$, ten test tones were modified to be within $1 \unit{dB}$ of a specified magnitude.
-
-For the filters for Signals $x_1$ and $x_8$, preserving linear phase was not important, and thus infinite impulse response (IIR) filters were used because they have a better magnitude response for a given order.  For Signals $x_3$ and $x_4$, preserving linear phase was important, and thus finite impulse response (FIR) filters were used.  For details on each filter, see the signal's respective section.  
-
-Throughout this experience, I gained experience working with digital filters, in both design and application.  Additionally, I built upon my "signal hunting" skills that had been built in CPX 1 in order to understand the content of the signals, a necessary prerequisite to processing them appropriately.  I also gained more experience with audio processing in Matlab, and learned how to export to \code{.wav} files.  Additionally, I gained more experience in \LaTeX, which is always helpful.
-
-For access to the Matlab \code{.mlx} files, source signal data, filter designer session \code{.fda} file, filter taps \code{.bin} files, and output \code{.wav} sound files, see the project's GitHub repository at \url{https://github.com/dbcometto/ece434_cpx2}.
-
 
 
 
 \section*{Documentation}
-
-I did all my own work.  I had various conversations with classmates, including C1C Csicsila and C1C Chen.  However, no changes were made based on those conversations.  Additionally, I used Google (\url{https://brainly.com/question/2233369}) to find the cucumber quote and YouTube (\url{https://www.youtube.com/watch?v=V30tyaXv6EI}) to find the Conan the Barbarian quote.  I used various resources, including overleaf.com, for Latex help.  I also used various ECG interpretation resources, including \href{https://clinical.stjohnwa.com.au/medical-library/ecg-library/introduction-overview/introduction-to-the-ecg#:~:text=Generated\%20when\%20there\%20is\%20movement,direction\%20of\%20these\%20electrical\%20impulses.&text=From\%20Atrial\%20depolarisation\%20(start\%20in,from\%20right\%20to\%20left\%20atrium.}{this article}, several YouTube videos, and several Google images of atrial fibrillation.  I also used the Mathworks website for Matlab help, for various syntax issues, and additionally for the \code{upsample} function, in an attempt to play the ECG data (until I learned that real ECGs use sonification to play the data, which makes way more sense).  I also used my notes from Math 342 Numerical Analysis and the Remez algorithm Wikipedia page.  Additionally, C1C Csicsila asked me a question regarding why it is worth finding the period in both the time domain and frequency domain, and that led me to realize I had forgot to answer several questions.

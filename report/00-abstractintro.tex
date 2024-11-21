@@ -3,40 +3,6 @@
 
 \begin{abstract}
 
-Computer Exercise 2 (CPX 2) required processing 5 signals in a variety of manners to produce certain objectives.  Digital signal processing using various FIR and IIR  filters enabled these objectives to be met with low order filters.  The signals, including test tones, ECG data, and jammed audio, provided a wide range of applications for digital signal processing.  Overall, CPX2 was a great exercise in solving real-world problems using digital filter techniques. 
-
 \end{abstract}
 
 \section{Introduction}
-
-\parindent=0pt
-\parskip=.5\baselineskip plus 2pt
-
-Computer Exercise 2 (CPX 2) for ECE 434, Digital Signal Processing, involved processing 5 signals.  The five signals are: 
-\begin{itemize}
-    \item Signal $x_1$: Two tones, one louder and one softer
-
-    \item Signal $x_8$: A message containing the secrets of sunshine extraction from cucumbers, but important information is jammed
-
-    \item Signal $x_3$: An electrocardiogram (ECG) that is contaminated with a power line artifact
-
-    \item Signal $x_4$: An unknown audio signal that is jammed
-
-    \item Signal $x_7$: A series of 10 test tones that must be modified
-\end{itemize}
-
-The processing goals for each signal are:
-\begin{itemize}
-    \item Signal $x_1$: Make the louder tone softer and the softer tone louder
-
-    \item Signal $x_8$: Reveal the jammed information
-
-    \item Signal $x_3$: Remove the power line artifact
-
-    \item Signal $x_4$: Reveal the unknown audio
-
-    \item Signal $x_7$: Correctly modify the 10 test tones
-\end{itemize}
-
-I filtered each signal to enact the signal's processing goal.  All aspects of the filter, including using an infinite impulse response (IIR) versus a finite impulse response (FIR) design method, order, and other parameters, have been carefully considered, and are reported in each signal's respective section.  For access to the Matlab \code{.mlx} files, source signal data, filter designer session \code{.fda} file, filter taps \code{.bin} files, and output \code{.wav} sound files, see the project's GitHub repository at \url{https://github.com/dbcometto/ece434_cpx2}.
-
