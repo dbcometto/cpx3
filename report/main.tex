@@ -3,9 +3,9 @@
 \newcommand\thisclass{CPX 3 Report} % set project/class name
 
 % packages and shortcuts
-\input{myPackages_gr} % add packages here
-\input{myShortcuts}  % these are custom shortcuts
-\input{bookConfig}   % some config info
+\input{packages} % add packages here
+\input{customs}  % these are custom shortcuts
+
 
 % page options
 \pagestyle{fancy}
@@ -19,21 +19,18 @@
 \renewcommand{\footrulewidth}{1pt}
 
 
-% Lengths for requirements table
-\newlength\numLength
-\settowidth{\numLength}{\textbf{3.3.3}} 
-\newlength\sourceLength
-\settowidth{\sourceLength}{\textbf{End User}}
-\newlength\reqLength
-\setlength{\reqLength}{7.5in - \numLength - \sourceLength}
+
+
+
 
 % DOCUMENT STARTS HERE
 
 \begin{document}
 	
 
-% title page
+% Title Page
 \hypersetup{pageanchor=false} % so the title page and front matter don't try to act like page 1 of the document later...
+
 \begin{center}
 \includegraphics[scale=0.25]{./figures/ECE-logo.png} \\[24pt]
 \huge{\textbf{\thisclass}} \\[12pt]
@@ -54,7 +51,7 @@
 \newpage
 
 
-% table of contents
+% Table of Contentses
 \thispagestyle{empty}
 \setcounter{page}{0}
 \tableofcontents
@@ -65,13 +62,10 @@
 \newpage
 \listoftables
 
+% Content
+
 \newpage
-
-
-% content starts here
 \hypersetup{pageanchor=true} % re-activate 
-
-
 \input{./00-abstractintro} 
 \newpage
 \input{./01-block1.tex} 
@@ -86,20 +80,5 @@
 \newpage
 \input{./06-Conclusion} 
 
-
-
-
-% Endnotes - activate if needed
-%%% in the text, you can use /endnote{} 
-%%% command to insert endnotes
-
-%\newpage
-%\theendnotes 
-%\newpage
-
-
-
-% Bibliography 
-%\printbibliography
 
 \end{document}
