@@ -1,0 +1,18 @@
+# Fdb version 4
+["pdflatex"] 1732150122.35746 "c:/Users/C25Dante.Cometto/cpx3/exampleLatex/test.tex" "test.pdf" "test" 1732150123.60557 0
+  "c:/Users/C25Dante.Cometto/cpx3/exampleLatex/test.tex" 1732122319 65 90b7db98e388ef324c958f7b408301d4 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1732123819 35752 024fb6c41858982481f6968b5fc26508 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/article.cls" 1732127864 20144 d7d3a15c7efd9458741458961c8a96e7 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1732127864 8448 bd43e47d84d3704b7eabd59a92e43bf1 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1732127804 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1732123561 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
+  "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1732135953 5521760 8d14e9f23704d5fbe9a015e30cb48126 ""
+  "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732136214 3342929 f47abe2628ae7875b7684b200f19008f ""
+  "c:/texlive/2024/texmf.cnf" 1732135910 713 e69b156964470283e0530f5060668171 ""
+  "test.aux" 1732150123 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "test.tex" 1732122319 65 90b7db98e388ef324c958f7b408301d4 ""
+  (generated)
+  "test.aux"
+  "test.log"
+  "test.pdf"
+  (rewritten before read)
