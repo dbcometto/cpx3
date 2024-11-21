@@ -11,15 +11,13 @@ function [data_upsampled] = upsampling(data, lpf_filter_num, data_upsampled, N)
 %    thus fast, filter.
 %
 % by Ben Cometto
-%     11/21/2024
 %
 %   INPUTS
 %       data:           4 channel raw data from the phased array
 %       lpf_filter_num: numerator coefficients for interpolating LPF
-%       data_upsampled: a matrix of zeros with twice the height of data
-%       N:              the height of data_upsampled
+%       data_upsampled: a m
 %   OUTPUTS
-%       data_upsampled: upsampled data
+%       data_upsampled:           modified data
 
 % First, pad the data with zeros by filling in prearranged zero vector
 data_upsampled(1:2:N,:) = data;
