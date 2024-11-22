@@ -9,10 +9,8 @@ function [data] = noise_remove_LPF(data)
 %       data:           modified data
 %
 
-load denoise_fils.mat -mat
+fils = load("denoise_fils.mat","-mat")
 
-parfor i = 1:4
-    data(:,i) = data(:,i) - mean(data(:,i));
-    data(:,i) = filter(Num1, 1, data(:,i));
-    data(:,i) = filter(Num2, 1, data(:,i));
-end
+data = data - mean(data);
+data = filter(fils.Num1, 1, data);
+data = filter(fils.Num2, 1, data);
