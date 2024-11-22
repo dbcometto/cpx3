@@ -17,6 +17,7 @@ SampleRate = 100000;
 frequency = 10000;  % of pulse
 samples_per_cycle = SampleRate / frequency;
 N = 2000;           % number of samples taken per sensor; range = about 10 feet
+NUpsampled = 2*N;   % number of samples after upsampling
 FrameSize = N;
 upsample = 2;       % later upsampling by 2
 num_elements = 4;   % number of elements in array
@@ -34,7 +35,7 @@ colormap(gray);   % grayscale images, not color
 NumBeams = (samples_per_cycle*upsample) + 1;  %should be 21 for default case
 
 
-data2 = zeros(N*upsample,num_elements);
+data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector for upsampling (designed for upsample = 2)
 beams = zeros(NumBeams, N*upsample);
 demod_I = zeros(NumBeams, N*upsample+10);
 demod_Q = zeros(NumBeams, N*upsample+10);
@@ -44,7 +45,7 @@ SF = zeros(4,1);
 
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
 % -- add your look-up tables here.  They don't cost you any time here
-
+load lpf_upsample.bin -mat % load upsampling filer coefficients
 
 
 %blackman filter coefficients
@@ -265,7 +266,7 @@ while game_on > 0
    %    Call routine multiple times to upsample by 4, 8, 16, etc.
     time1 = tic;
  
-    [data2] = upsampling(data, upsample); 
+    [data2] = upsampling(data,num_upsample,data2,NUpsampled); 
 
     time2 = toc(time1);
     Stage4_upsample_time = time2
