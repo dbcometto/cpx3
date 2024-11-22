@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  21 NOV 2024 01:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  22 NOV 2024 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1468,7 +1468,19 @@ Package pdftex.def Info: ./figures/ECE-logo.png  used on input line 35.
 
 [2]
 Package hyperref Info: Option `pageanchor' set `true' on input line 68.
- (./00-abstractintro.tex)
+ (./00-abstractintro.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 15.
+ (c:/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
 
 [3] (./01-block1.tex)
 
@@ -1493,18 +1505,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 46CDB773778F971261430F32BCE20C19;601.
  ) 
 Here is how much of TeX's memory you used:
- 62401 strings out of 473362
- 1561738 string characters out of 5725044
- 2393732 words of memory out of 5000000
- 84503 multiletter control sequences out of 15000+600000
- 560195 words of font info for 43 fonts, out of 8000000 for 9000
+ 62474 strings out of 473362
+ 1562840 string characters out of 5725044
+ 2394732 words of memory out of 5000000
+ 84546 multiletter control sequences out of 15000+600000
+ 566841 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,11n,110p,7210b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on auxiliary/main.pdf (11 pages, 1013454 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on auxiliary/main.pdf (11 pages, 1065825 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 145 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  19 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
