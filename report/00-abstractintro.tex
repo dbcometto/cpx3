@@ -14,4 +14,13 @@ Sonar, ultrasound, and radar are all based on the same principle: transmit a wav
 
 For this project, we are working with recorded data.  The recorded data was produced using a single omni-directional speaker to transmit the pulse and a phased array of four omni-directional microphones to receive the echos.  Each microphone is given a channelL $X_1$, $X_2$, $X_3$, and $X_4$.
 
-The signal processing is done inside of a \sc{Matlab}
+The signal processing is done inside of a \textsc{Matlab} script, following the process diagrammed in Figure \ref{fig:stages}. \textbf{NEEDS TO BE REDRAWN WITH OUR NEW ORDER}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/stages.png}
+    \caption{Signal Processing Stages}
+    \label{fig:stages}
+\end{figure}
+
+Each stage is described in more detail, to include its purpose, design goals, implementation, and analysis results, in its respective section.
