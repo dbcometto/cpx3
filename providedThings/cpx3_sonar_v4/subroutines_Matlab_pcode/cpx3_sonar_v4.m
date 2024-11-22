@@ -46,6 +46,10 @@ SF = zeros(4,1);
 % -- add your look-up tables here.  They don't cost you any time here
 
 
+%%create time-gain array for attenuation%%
+
+
+
 
 %blackman filter coefficients
 % For LPF using blackman rectangular filter
