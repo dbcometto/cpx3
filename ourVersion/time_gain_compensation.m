@@ -1,4 +1,4 @@
-function [data] = time_gain_compensation(data, N)
+function [data] = time_gain_compensation(data, timeGainValue)
 
 % Adjusts for annenuation of signal over distance
 %  linear or log?     tested with tone at proper distance
@@ -12,6 +12,10 @@ function [data] = time_gain_compensation(data, N)
 %   OUTPUTS
 %       data:           modified data
    
+data = (data .* timeGainValue);
+
+
+
 
 
 

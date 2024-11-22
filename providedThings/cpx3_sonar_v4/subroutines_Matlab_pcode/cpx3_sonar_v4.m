@@ -49,6 +49,13 @@ SF = zeros(4,1);
 %%create time-gain array for attenuation%%
 
 
+sampleIndex = 200:1:2000;
+sonarDistance = (sampleIndex/SampleRate) * c;
+timeGainValue = sonarDistance.^2
+
+
+
+
 
 
 %blackman filter coefficients
@@ -187,7 +194,7 @@ while game_on > 0
   %  adjust for annenuation of signal over distance
     time1 = tic;
  
-    [data] = time_gain_compensation(data, N); 
+    [data] = time_gain_compensation(data, timeGainValue); 
     
     time2 = toc(time1);
     Stage2_TGC_time = time2

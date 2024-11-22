@@ -45,6 +45,10 @@ SF = zeros(4,1);
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
 % -- add your look-up tables here.  They don't cost you any time here
 
+%time-gain computation 
+sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
+sonarDistance = (sampleIndex/100000) * 1136;
+timeGainValue = sonarDistance.^2.*(1/(4*pi)^2);
 
 
 %blackman filter coefficients
