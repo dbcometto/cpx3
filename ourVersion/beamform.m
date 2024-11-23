@@ -1,6 +1,6 @@
 function [beams] = beamform_test(data2, NumBeams, FrameSize, num_elements)
-%    Convert the data from the 4 channels into 21 "beams" using simple
-%    delay-sum beamforming
+%    This function converts the data from the 4 channels into 21 "beams"
+%    using simple delay-sum beamforming
 %
 %
 % by VICTOR CHEN
@@ -15,6 +15,14 @@ function [beams] = beamform_test(data2, NumBeams, FrameSize, num_elements)
 %   OUTPUTS
 %       beams:           beamformed data
 %
+    % ===============================================================
+    % TEST DATA - UNCOMMENT TO USE
+    % Using a sinwave for all channels, we can test the beamform on various
+    % frequencies to see waves in our final beamform image.
+    % x = 2    % adjust x for different frequencies
+    %t = 1:4000
+    %channel = sin(t/x)
+    %data2 = [channel', channel', channel', channel']
 
     % Initialize n and k terms
     k_max = floor(NumBeams/2);

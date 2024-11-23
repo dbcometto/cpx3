@@ -49,8 +49,8 @@ SF = zeros(4,1);
 
 %time-gain computation 
 sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
-sonarDistance = (sampleIndex/100000) * 1136;
-timeGainValue = sonarDistance.^2.*(1/(4*pi)^2);
+timeGainValue = (1 + (sampleIndex.*c)/SampleRate);
+
 load lpf_upsample.bin -mat % load upsampling filer coefficients
 
 
@@ -219,7 +219,7 @@ while game_on > 0
   %  adjust for annenuation of signal over distance
     time1 = tic;
  
-    [data] = time_gain_compensation(data, N); 
+    [data] = time_gain_compensation(data, timeGainValue); 
     
     time2 = toc(time1);
     Stage2_TGC_time = time2

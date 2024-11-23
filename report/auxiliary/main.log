@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  22 NOV 2024 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  23 NOV 2024 03:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/C25Dante.Cometto/cpx3/report/main.tex
-(c:/Users/C25Dante.Cometto/cpx3/report/main.tex
+**"c:/ECE 434/cpx3/report/main.tex"
+(c:/ECE 434/cpx3/report/main.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -485,7 +485,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count323
 ) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
+Package: fancyhdr 2024/11/20 v4.4 Extensive control of page headers and footers
 \f@nch@headwidth=\skip77
 \f@nch@O@elh=\skip78
 \f@nch@O@erh=\skip79
@@ -1439,7 +1439,7 @@ Package hyperref Info: Link coloring OFF on input line 28.
 \openout8 = `main.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 32.
-<./figures/ECE-logo.png, id=43, 1436.7276pt x 1436.7276pt>
+<./figures/ECE-logo.png, id=51, 1436.7276pt x 1436.7276pt>
 File: ./figures/ECE-logo.png Graphic file (type png)
 <use ./figures/ECE-logo.png>
 Package pdftex.def Info: ./figures/ECE-logo.png  used on input line 35.
@@ -1481,7 +1481,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [2]
 Package hyperref Info: Option `pageanchor' set `true' on input line 68.
  (./00-abstractintro.tex
-<figures/stages.png, id=94, 701.62125pt x 484.81125pt>
+<figures/stages.png, id=116, 701.62125pt x 484.81125pt>
 File: figures/stages.png Graphic file (type png)
 <use figures/stages.png>
 Package pdftex.def Info: figures/stages.png  used on input line 21.
@@ -1490,12 +1490,18 @@ Package pdftex.def Info: figures/stages.png  used on input line 21.
 
 [3 <./figures/stages.png>] (./01-block1.tex)
 
-[4] (./02-block2.tex)
+[4] (./02-block2.tex
+<figures/time_gain_1.png, id=132, 745.78625pt x 632.3625pt>
+File: figures/time_gain_1.png Graphic file (type png)
+<use figures/time_gain_1.png>
+Package pdftex.def Info: figures/time_gain_1.png  used on input line 15.
+(pdftex.def)             Requested size: 234.8775pt x 199.15665pt.
+)
 
-[5] (./03-block3.tex)
+[5 <./figures/time_gain_1.png>] (./03-block3.tex)
 
 [6] (./04-block4.tex
-<figures/upsample_freq_response.png, id=121, 385.44pt x 179.92218pt>
+<figures/upsample_freq_response.png, id=149, 385.44pt x 179.92218pt>
 File: figures/upsample_freq_response.png Graphic file (type png)
 <use figures/upsample_freq_response.png>
 Package pdftex.def Info: figures/upsample_freq_response.png  used on input line 37.
@@ -1503,12 +1509,12 @@ Package pdftex.def Info: figures/upsample_freq_response.png  used on input line 
 
 
 [7 <./figures/upsample_freq_response.png>]
-<figures/linear_upsample_whole.png, id=130, 423.08063pt x 312.41719pt>
+<figures/linear_upsample_whole.png, id=156, 423.08063pt x 312.41719pt>
 File: figures/linear_upsample_whole.png Graphic file (type png)
 <use figures/linear_upsample_whole.png>
 Package pdftex.def Info: figures/linear_upsample_whole.png  used on input line 51.
 (pdftex.def)             Requested size: 234.8775pt x 173.44125pt.
-<figures/linear_upsample_zoom.png, id=132, 419.31656pt x 323.70938pt>
+<figures/linear_upsample_zoom.png, id=158, 419.31656pt x 323.70938pt>
 File: figures/linear_upsample_zoom.png Graphic file (type png)
 <use figures/linear_upsample_zoom.png>
 Package pdftex.def Info: figures/linear_upsample_zoom.png  used on input line 60.
@@ -1516,17 +1522,17 @@ Package pdftex.def Info: figures/linear_upsample_zoom.png  used on input line 60
 
 
 [8 <./figures/linear_upsample_whole.png> <./figures/linear_upsample_zoom.png>]
-<figures/upsample_time.png, id=141, 414.04688pt x 309.40594pt>
+<figures/upsample_time.png, id=167, 414.04688pt x 309.40594pt>
 File: figures/upsample_time.png Graphic file (type png)
 <use figures/upsample_time.png>
 Package pdftex.def Info: figures/upsample_time.png  used on input line 71.
 (pdftex.def)             Requested size: 234.8775pt x 175.52284pt.
-<figures/upsample_freq.png, id=142, 417.81094pt x 310.91156pt>
+<figures/upsample_freq.png, id=168, 417.81094pt x 310.91156pt>
 File: figures/upsample_freq.png Graphic file (type png)
 <use figures/upsample_freq.png>
 Package pdftex.def Info: figures/upsample_freq.png  used on input line 78.
 (pdftex.def)             Requested size: 234.8775pt x 174.78767pt.
-<figures/upsample_time_zoom.png, id=145, 419.31656pt x 306.39468pt>
+<figures/upsample_time_zoom.png, id=171, 419.31656pt x 306.39468pt>
 File: figures/upsample_time_zoom.png Graphic file (type png)
 <use figures/upsample_time_zoom.png>
 Package pdftex.def Info: figures/upsample_time_zoom.png  used on input line 87.
@@ -1534,18 +1540,58 @@ Package pdftex.def Info: figures/upsample_time_zoom.png  used on input line 87.
 
 
 [9 <./figures/upsample_time.png> <./figures/upsample_freq.png>]
-<figures/upsample_freq_zoom.png, id=152, 395.97937pt x 310.15875pt>
+<figures/upsample_freq_zoom.png, id=179, 395.97937pt x 310.15875pt>
 File: figures/upsample_freq_zoom.png Graphic file (type png)
 <use figures/upsample_freq_zoom.png>
 Package pdftex.def Info: figures/upsample_freq_zoom.png  used on input line 94.
 (pdftex.def)             Requested size: 234.8775pt x 183.97646pt.
 )
 
-[10 <./figures/upsample_time_zoom.png> <./figures/upsample_freq_zoom.png>] (./05-block5.tex)
+[10 <./figures/upsample_time_zoom.png> <./figures/upsample_freq_zoom.png>] (./05-block5.tex
+Overfull \hbox (16.43977pt too wide) in paragraph at lines 18--19
+[]\OT1/cmr/m/n/10 To op-ti-mize the beam-form-ing func-tion, we uti-lize \OT1/cmr/m/sc/10 MAT-LAB\OT1/cmr/m/n/10 's lin-ear vec-tor-iza-tion and pre-com-put-ing ca-pa-bil-i-ties,
+ []
 
-[11] (./06-conclusion.tex)
+<figures/beamform_fig1.png, id=188, 459.96844pt x 84.315pt>
+File: figures/beamform_fig1.png Graphic file (type png)
+<use figures/beamform_fig1.png>
+Package pdftex.def Info: figures/beamform_fig1.png  used on input line 22.
+(pdftex.def)             Requested size: 234.8775pt x 43.05539pt.
+<figures/beamform_fig2.png, id=189, 383.18156pt x 73.77562pt>
+File: figures/beamform_fig2.png Graphic file (type png)
+<use figures/beamform_fig2.png>
+Package pdftex.def Info: figures/beamform_fig2.png  used on input line 31.
+(pdftex.def)             Requested size: 234.8775pt x 45.22256pt.
 
-[12] 
+
+[11 <./figures/beamform_fig1.png> <./figures/beamform_fig2.png>]
+<figures/beamform_fig3.png, id=197, 569.12625pt x 438.8897pt>
+File: figures/beamform_fig3.png Graphic file (type png)
+<use figures/beamform_fig3.png>
+Package pdftex.def Info: figures/beamform_fig3.png  used on input line 46.
+(pdftex.def)             Requested size: 234.8775pt x 181.13129pt.
+<figures/beamform_fig4.png, id=198, 1217.2978pt x 642.90187pt>
+File: figures/beamform_fig4.png Graphic file (type png)
+<use figures/beamform_fig4.png>
+Package pdftex.def Info: figures/beamform_fig4.png  used on input line 55.
+(pdftex.def)             Requested size: 234.8775pt x 124.04593pt.
+<figures/beamform_fig5.png, id=199, 691.83469pt x 490.08093pt>
+File: figures/beamform_fig5.png Graphic file (type png)
+<use figures/beamform_fig5.png>
+Package pdftex.def Info: figures/beamform_fig5.png  used on input line 64.
+(pdftex.def)             Requested size: 234.8775pt x 166.37854pt.
+
+
+[12 <./figures/beamform_fig3.png> <./figures/beamform_fig4.png>])
+Overfull \hbox (6.32924pt too wide) in paragraph at lines 72--80
+[]\OT1/cmr/m/n/10 The beam-form-ing func-tion achieved an av-er-age ex-e-cu-tion time of 0.0023155 sec-onds, a sub-stan-tial im-prove-ment
+ []
+
+
+
+[13 <./figures/beamform_fig5.png>] (./06-Conclusion.tex)
+
+[14] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (auxiliary/main.aux)
  ***********
@@ -1553,21 +1599,21 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 99D3905FD154043B2E023E41E4139D25;1425.
+(rerunfilecheck)             Checksum: B5F2AC7E364DD48BB09D4EC99E5A99F6;1421.
  ) 
 Here is how much of TeX's memory you used:
- 62580 strings out of 473362
- 1565730 string characters out of 5725044
- 2401397 words of memory out of 5000000
- 84636 multiletter control sequences out of 15000+600000
- 567614 words of font info for 70 fonts, out of 8000000 for 9000
+ 62644 strings out of 473362
+ 1567390 string characters out of 5725044
+ 2401756 words of memory out of 5000000
+ 84688 multiletter control sequences out of 15000+600000
+ 567960 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,13n,110p,7210b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb>
-Output written on auxiliary/main.pdf (14 pages, 1399133 bytes).
+ 104i,13n,110p,7197b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb>
+Output written on auxiliary/main.pdf (16 pages, 1645483 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 291 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
