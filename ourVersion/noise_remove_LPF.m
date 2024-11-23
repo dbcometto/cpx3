@@ -12,5 +12,6 @@ function [data] = noise_remove_LPF(data)
 fils = load("denoise_fils.mat","-mat");
 
 data = data - mean(data);
-data = filter(fils.Num1, 1, data);
+%data = filter(fils.Num1, 1, data);
+data = filter(fils.Num3, fils.Den3, data);
 data = filter(fils.Num2, 1, data);
