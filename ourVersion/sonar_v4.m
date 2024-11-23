@@ -17,6 +17,7 @@ SampleRate = 100000;
 frequency = 10000;  % of pulse
 samples_per_cycle = SampleRate / frequency;
 N = 2000;           % number of samples taken per sensor; range = about 10 feet
+NUpsampled = 2*N;   % number of samples after upsampling
 FrameSize = N;
 upsample = 2;       % later upsampling by 2
 num_elements = 4;   % number of elements in array
@@ -34,7 +35,7 @@ colormap(gray);   % grayscale images, not color
 NumBeams = (samples_per_cycle*upsample) + 1;  %should be 21 for default case
 
 
-data2 = zeros(N*upsample,num_elements);
+data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector for upsampling (designed for upsample = 2)
 beams = zeros(NumBeams, N*upsample);
 demod_I = zeros(NumBeams, N*upsample+10);
 demod_Q = zeros(NumBeams, N*upsample+10);
@@ -45,10 +46,13 @@ SF = zeros(4,1);
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
 % -- add your look-up tables here.  They don't cost you any time here
 
+
 %time-gain computation 
 sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
 sonarDistance = (sampleIndex/100000) * 1136;
 timeGainValue = sonarDistance.^2.*(1/(4*pi)^2);
+load lpf_upsample.bin -mat % load upsampling filer coefficients
+
 
 
 %blackman filter coefficients
@@ -84,6 +88,9 @@ end
 iii = 1;
 game_on = 1;
 while game_on > 0
+
+    % we combined a stage1a & 1b, moved stage3 to before
+    Stage1b_cal_array_time = 0;
     
     % STAGE 0: TRANSMIT PULSE
     time1 = tic;
@@ -131,83 +138,8 @@ while game_on > 0
         title('Raw data received');
         xlabel('sample number');
     end
-    
-    % STAGE 1a: Calibrate Start, remove transimitted "bang" and find start of data
-    %          - move data up to start of bang
-    %          - blank out transmitted pulse (could impact calibration)
-    time1 = tic;
- 
-    [data, data_start, data_end] = cal_start(data, N, pulse_length); 
-    
-    time2 = toc(time1);
-    Stage1a_cal_start_time = time2 
-    total_time = total_time + Stage1a_cal_start_time;
-    
-    % plot modified data
-    if (show_images == 1.0)
-        figure(3);
-        P1=plot(data(:,1),'k');
-        hold on
-        P2=plot(data(:,2),'r');
-        P3=plot(data(:,3),'g');
-        P4=plot(data(:,4),'b');
-        hold off
-        legend('CH 1', 'CH 2', 'CH 3', 'CH 4');
-        title('data after blanking and shifting');
-        xlabel('sample number');
-    end
-    
-    % STAGE 1b: Self Calibrate Arrays
-    %          - remove DC bias
-    %          - normalize energy across arrays
-    time1 = tic;
- 
-    [data] = cal_array(data, data_start, data_end); 
-    
-    time2 = toc(time1);
-    Stage1b_cal_array_time = time2
-    total_time = total_time + Stage1b_cal_array_time;
 
-    % plot modified data
-    if (show_images == 1.0)
-        figure(4);
-        P1=plot(data(:,1),'k');
-        hold on
-        P2=plot(data(:,2),'r');
-        P3=plot(data(:,3),'g');
-        P4=plot(data(:,4),'b');
-        hold off
-        legend('CH 1', 'CH 2', 'CH 3', 'CH 4');
-        title('data after auto-calibate (remove DC and auto-scale)');
-        xlabel('sample number');
-    end
-   
-    
-  % STAGE 2: Time Gain Compensation
-  %  adjust for annenuation of signal over distance
-    time1 = tic;
- 
-    [data] = time_gain_compensation(data, N); 
-    
-    time2 = toc(time1);
-    Stage2_TGC_time = time2
-    total_time = total_time + Stage2_TGC_time;
-    
-    % plot modified data
-    if (show_images == 1.0)
-        figure(5);
-        P1=plot(data(:,1),'k');
-        hold on
-        P2=plot(data(:,2),'r');
-        P3=plot(data(:,3),'g');
-        P4=plot(data(:,4),'b');
-        hold off
-        legend('CH 1', 'CH 2', 'CH 3', 'CH 4');
-        title('data after time gain compensation');
-        xlabel('sample number');
-    end
-
-   % STAGE 3: Noise Removal LPF
+   % STAGE 3: Noise and Bias Removal
    %    This is a good place to add a noise removal LPF,
    %    especially to band limit the signal before upsampling
  
@@ -255,7 +187,57 @@ while game_on > 0
         title('channel 1 spectrum (not shifted) after noise smoothing');
         xlabel('frequency (Hz)');
     end
+    
+    % STAGE 1: Calibration, remove transimitted "bang" and find start of data
+    %          - move data up to start of bang
+    %          - blank out transmitted pulse (could impact calibration)
+    %          - blank out noise after reflection return
+    time1 = tic;
+ 
+    data = cal_start(data, N, pulse_length); 
+    
+    time2 = toc(time1);
+    Stage1a_cal_start_time = time2 
+    total_time = total_time + Stage1a_cal_start_time;
+    
+    % plot modified data
+    if (show_images == 1.0)
+        figure(3);
+        P1=plot(data(:,1),'k');
+        hold on
+        P2=plot(data(:,2),'r');
+        P3=plot(data(:,3),'g');
+        P4=plot(data(:,4),'b');
+        hold off
+        legend('CH 1', 'CH 2', 'CH 3', 'CH 4');
+        title('data after blanking and shifting');
+        xlabel('sample number');
+    end
    
+    
+  % STAGE 2: Time Gain Compensation
+  %  adjust for annenuation of signal over distance
+    time1 = tic;
+ 
+    [data] = time_gain_compensation(data, N); 
+    
+    time2 = toc(time1);
+    Stage2_TGC_time = time2
+    total_time = total_time + Stage2_TGC_time;
+    
+    % plot modified data
+    if (show_images == 1.0)
+        figure(5);
+        P1=plot(data(:,1),'k');
+        hold on
+        P2=plot(data(:,2),'r');
+        P3=plot(data(:,3),'g');
+        P4=plot(data(:,4),'b');
+        hold off
+        legend('CH 1', 'CH 2', 'CH 3', 'CH 4');
+        title('data after time gain compensation');
+        xlabel('sample number');
+    end
     
 
    % STAGE 4: Upsampling
@@ -269,7 +251,7 @@ while game_on > 0
    %    Call routine multiple times to upsample by 4, 8, 16, etc.
     time1 = tic;
  
-    [data2] = upsampling(data, upsample); 
+    [data2] = upsampling(data,num_upsample,data2,NUpsampled); 
 
     time2 = toc(time1);
     Stage4_upsample_time = time2
@@ -300,7 +282,9 @@ while game_on > 0
         xlabel('frequency (Hz)');
     end
    
-   
+    %break
+
+
     % STAGE 5:  Beamforming
     % Convert the data from the 4 channels into 21 "beams" using simple
     % delay-sum beamforming

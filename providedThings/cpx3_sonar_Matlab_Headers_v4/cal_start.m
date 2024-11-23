@@ -13,5 +13,3 @@ function [data, data_start, data_end] = cal_start(data, N, pulse_length)
 %       data:           modified data
 %       data_start:     location in data at end of blanking region
 %       data_end:       location in data at the end of "good" data
-
-
