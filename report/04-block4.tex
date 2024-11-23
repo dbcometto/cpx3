@@ -1,6 +1,6 @@
 % !TEX root =./main.tex
 
-\section{Block 4: Upsampling (2x) - Ben Cometto}
+\section{Block 4: Upsampling (2x) - Cometto}
 
 Upsampling involves increasing the number of samples by interpolating the existing data.  In this case, we are upsampling our data so that we are able to form more beams, and thus have a higher resolution image.
 
@@ -64,7 +64,7 @@ It can be seen  in Figure \ref{fig:linear_upsample_zoom} that the upsampled vers
 
 Testing on various other types of synthetic data, such as sinusoids and linear combinations of sinusoids, further confirmed that the function was implemented as intended.  
 
-As the next test, we can upsample the provided test data (unmodified by the other stages) to ensure it has no unintended effects.  As can be seen in Figure \ref{fig:upsample_time} and Figure \ref{fig:upsample_freq}, te data was interoplated correctly.  Each channel is represented by a color.
+As the next test, we can upsample the provided test data (unmodified by the other stages) to ensure it has no unintended effects.  As can be seen in Figure \ref{fig:upsample_time} and Figure \ref{fig:upsample_freq}, the data was interoplated correctly.  Each channel is represented by a color.
 
 \begin{figure}[H]
     \centering
@@ -105,7 +105,7 @@ Therefore, the function successfully interpolates the data at a high quality.  T
         Provided \code{.p} & $5455$\\
         Rewritten \code{.m} & $64.7$
     \end{tabular}
-    \caption{Parameters for Upsampling Low Pass Filter}
+    \caption{Provided vs Rewritten Upsampling Function Performance}
     \label{tab:upsampleFunctionTime}
 \end{table}
 
