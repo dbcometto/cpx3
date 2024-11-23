@@ -9,7 +9,7 @@ function [data] = noise_remove_LPF(data)
 %       data:           modified data
 %
 
-fils = load("denoise_fils.mat","-mat")
+fils = load("denoise_fils.mat","-mat");
 
 data = data - mean(data);
 data = filter(fils.Num1, 1, data);
