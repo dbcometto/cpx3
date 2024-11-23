@@ -9,3 +9,5 @@ report/auxiliary/main.lot
 report/auxiliary/main.out
 report/auxiliary/main.toc
 report/auxiliary/main.fdb_latexmk
+report/main.pdf
+report/main.synctex.gz
