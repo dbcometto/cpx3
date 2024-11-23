@@ -3,6 +3,24 @@
 
 \begin{abstract}
 
+Sonar, sending and receiving sounds as a sensor, is a valuable tool that electrical and computer engineering provides.  In this project, CPX 3, we are improving upon a provided system.  The system collected data from a phased array of four omni-directional microphones, after a pulse from a single approximately omni-directional speaker.  We are working to improve both the speed and quality of the processing of this data, using the digital signal processing and problem solving techniques learned this semester. [REWRITE THIS ONCE REST IS WRITTEN AND WRITE MORE ABOUT METHODS AND RESULTS]
+
+
 \end{abstract}
 
 \section{Introduction}
+
+Sonar, ultrasound, and radar are all based on the same principle: transmit a wave, and record its echos.  The only differences are the type of wave or the frequencies involved.  In this project, we are using sonar.  Working in the audible range enables the use of low-cost, common speakers and microphones.  Additionally, it allows us to hear to pulses and echos, which can serve as another problem solving tool.
+
+For this project, we are working with recorded data.  The recorded data was produced using a single omni-directional speaker to transmit the pulse and a phased array of four omni-directional microphones to receive the echos.  Each microphone is given a channelL $X_1$, $X_2$, $X_3$, and $X_4$.
+
+The signal processing is done inside of a \textsc{Matlab} script, following the process diagrammed in Figure \ref{fig:stages}. \textbf{NEEDS TO BE REDRAWN WITH OUR NEW ORDER}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/stages.png}
+    \caption{Signal Processing Stages}
+    \label{fig:stages}
+\end{figure}
+
+Each stage is described in more detail, to include its purpose, design goals, implementation, and analysis results, in its respective section.
