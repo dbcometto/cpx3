@@ -5,7 +5,7 @@
 
 \begin{abstract}
 
-Sonar, sending and receiving sounds as a sensor, is a valuable tool that electrical and computer engineering provides.  In this project, CPX 3, we are improving upon a provided system.  The system collected data from a phased array of four omni-directional microphones, after a pulse from a single approximately omni-directional speaker.  We are working to improve both the speed and quality of the processing of this data, using the digital signal processing and problem solving techniques learned this semester. [REWRITE THIS ONCE REST IS WRITTEN AND WRITE MORE ABOUT METHODS AND RESULTS]
+Sonar, using the data recorded by a phased array of four omni-directional microphones following an omni-directional pulse, allows objects to be detected and imaged.  By calculating the values along a beam (direction), we are able to determine where the object that reflected the sound is located in relation to the sensors.  However, in order to do this, several pre-proessing steps are required.  First, we condition the data: reduce the noise, remove the DC bias, and limit the bandwidth.  Next, we calibrate the data by lining up the recording with the transmission of the pulse and ensuring each channel is recorded evenly.  Next, we compensate for the time-gain by reversing the inverse-square law.  Then, we upsampled by 2.  Finally, we form the beams.  This preprocessing forms the backbone of the sonar system, and is the foundation for the future processing of the beam data into a useable image.
 
 
 \end{abstract}
