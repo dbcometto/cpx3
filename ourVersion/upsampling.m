@@ -11,7 +11,7 @@ function [data_upsampled] = upsampling(data, lpf_filter_num, data_upsampled, N)
 %    thus fast, filter.
 %
 % by Ben Cometto
-%     11/21/2024
+%     11/22/2024
 %
 %   INPUTS
 %       data:           4 channel raw data from the phased array
