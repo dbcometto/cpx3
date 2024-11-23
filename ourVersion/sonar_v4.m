@@ -49,7 +49,7 @@ SF = zeros(4,1);
 
 %time-gain computation 
 sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
-timeGainValue = (1 + sampleIndex./c);
+timeGainValue = (1 + (sampleIndex.*c)/SampleRate);
 
 load lpf_upsample.bin -mat % load upsampling filer coefficients
 
