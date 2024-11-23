@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  23 NOV 2024 04:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  23 NOV 2024 05:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1439,7 +1439,7 @@ Package hyperref Info: Link coloring OFF on input line 28.
 \openout8 = `main.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 32.
-<./figures/ECE-logo.png, id=59, 1436.7276pt x 1436.7276pt>
+<./figures/ECE-logo.png, id=63, 1436.7276pt x 1436.7276pt>
 File: ./figures/ECE-logo.png Graphic file (type png)
 <use ./figures/ECE-logo.png>
 Package pdftex.def Info: ./figures/ECE-logo.png  used on input line 35.
@@ -1481,7 +1481,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [2]
 Package hyperref Info: Option `pageanchor' set `true' on input line 68.
  (./00-abstractintro.tex
-<figures/stages.png, id=126, 701.62125pt x 484.81125pt>
+<figures/stages.png, id=151, 701.62125pt x 484.81125pt>
 File: figures/stages.png Graphic file (type png)
 <use figures/stages.png>
 Package pdftex.def Info: figures/stages.png  used on input line 21.
@@ -1493,115 +1493,171 @@ Overfull \hbox (17.63606pt too wide) in paragraph at lines 3--3
 []\OT1/cmr/bx/n/14.4 Block 1: Noise Re-moval, Band-width Lim-it-ing, and Bias Cor-rec-tion 
  []
 
+<figures/prefiltered.PNG, id=163, 319.69438pt x 248.42813pt>
+File: figures/prefiltered.PNG Graphic file (type png)
+<use figures/prefiltered.PNG>
+Package pdftex.def Info: figures/prefiltered.PNG  used on input line 13.
+(pdftex.def)             Requested size: 234.8775pt x 182.51855pt.
+<figures/debiased.PNG, id=164, 317.185pt x 250.43562pt>
+File: figures/debiased.PNG Graphic file (type png)
+<use figures/debiased.PNG>
+Package pdftex.def Info: figures/debiased.PNG  used on input line 25.
+(pdftex.def)             Requested size: 234.8775pt x 185.45319pt.
+
+
+[4 <./figures/prefiltered.PNG> <./figures/debiased.PNG>]
+<figures/tukey.PNG, id=171, 420.06938pt x 204.26312pt>
+File: figures/tukey.PNG Graphic file (type png)
+<use figures/tukey.PNG>
+Package pdftex.def Info: figures/tukey.PNG  used on input line 37.
+(pdftex.def)             Requested size: 234.8775pt x 114.21202pt.
+<figures/denoised.PNG, id=172, 325.71687pt x 256.96pt>
+File: figures/denoised.PNG Graphic file (type png)
+<use figures/denoised.PNG>
+Package pdftex.def Info: figures/denoised.PNG  used on input line 43.
+(pdftex.def)             Requested size: 234.8775pt x 185.3012pt.
 )
-Overfull \hbox (4.27347pt too wide) in paragraph at lines 19--72
+Overfull \hbox (4.27347pt too wide) in paragraph at lines 47--72
 []\OT1/cmr/m/n/10 We de-cided to place this block first, as the noise-reduced sig-nal is much sim-pler to deal with when im-ple-ment-ing
  []
 
 
 
-[4] (./01-block1.tex)
+[5 <./figures/tukey.PNG> <./figures/denoised.PNG>] (./01-block1.tex
+<figures/tx_zero.PNG, id=180, 324.21124pt x 255.45438pt>
+File: figures/tx_zero.PNG Graphic file (type png)
+<use figures/tx_zero.PNG>
+Package pdftex.def Info: figures/tx_zero.PNG  used on input line 14.
+(pdftex.def)             Requested size: 234.8775pt x 185.06908pt.
+<figures/all_channels.PNG, id=181, 327.2225pt x 252.945pt>
+File: figures/all_channels.PNG Graphic file (type png)
+<use figures/all_channels.PNG>
+Package pdftex.def Info: figures/all_channels.PNG  used on input line 24.
+(pdftex.def)             Requested size: 234.8775pt x 181.56061pt.
+<figures/channels_normed.PNG, id=182, 330.23375pt x 257.46187pt>
+File: figures/channels_normed.PNG Graphic file (type png)
+<use figures/channels_normed.PNG>
+Package pdftex.def Info: figures/channels_normed.PNG  used on input line 30.
+(pdftex.def)             Requested size: 234.8775pt x 183.12526pt.
 
-[5] (./02-block2.tex
-<figures/time_gain_1.png, id=147, 745.78625pt x 632.3625pt>
+
+[6 <./figures/tx_zero.PNG> <./figures/all_channels.PNG>])
+
+[7 <./figures/channels_normed.PNG>] (./02-block2.tex
+<figures/rawData.png, id=195, 750.805pt x 632.3625pt>
+File: figures/rawData.png Graphic file (type png)
+<use figures/rawData.png>
+Package pdftex.def Info: figures/rawData.png  used on input line 22.
+(pdftex.def)             Requested size: 234.8775pt x 197.82507pt.
+<figures/time_gain_1.png, id=197, 745.78625pt x 632.3625pt>
 File: figures/time_gain_1.png Graphic file (type png)
 <use figures/time_gain_1.png>
-Package pdftex.def Info: figures/time_gain_1.png  used on input line 19.
+Package pdftex.def Info: figures/time_gain_1.png  used on input line 31.
 (pdftex.def)             Requested size: 234.8775pt x 199.15665pt.
+
+
+[8 <./figures/rawData.png>]
+<figures/TGC_before.png, id=208, 352.1958pt x 303.534pt>
+File: figures/TGC_before.png Graphic file (type png)
+<use figures/TGC_before.png>
+Package pdftex.def Info: figures/TGC_before.png  used on input line 43.
+(pdftex.def)             Requested size: 234.8775pt x 202.42651pt.
 )
 
-[6 <./figures/time_gain_1.png>] (./04-block4.tex
-<figures/upsample_freq_response.png, id=159, 385.44pt x 179.92218pt>
+[9 <./figures/time_gain_1.png> <./figures/TGC_before.png (PNG copy)>]
+
+[10] (./04-block4.tex
+<figures/upsample_freq_response.png, id=223, 385.44pt x 179.92218pt>
 File: figures/upsample_freq_response.png Graphic file (type png)
 <use figures/upsample_freq_response.png>
 Package pdftex.def Info: figures/upsample_freq_response.png  used on input line 37.
 (pdftex.def)             Requested size: 234.8775pt x 109.6398pt.
 
 
-[7 <./figures/upsample_freq_response.png>]
-<figures/linear_upsample_whole.png, id=166, 423.08063pt x 312.41719pt>
+[11 <./figures/upsample_freq_response.png>]
+<figures/linear_upsample_whole.png, id=231, 423.08063pt x 312.41719pt>
 File: figures/linear_upsample_whole.png Graphic file (type png)
 <use figures/linear_upsample_whole.png>
 Package pdftex.def Info: figures/linear_upsample_whole.png  used on input line 51.
 (pdftex.def)             Requested size: 234.8775pt x 173.44125pt.
-<figures/linear_upsample_zoom.png, id=168, 419.31656pt x 323.70938pt>
+<figures/linear_upsample_zoom.png, id=233, 419.31656pt x 323.70938pt>
 File: figures/linear_upsample_zoom.png Graphic file (type png)
 <use figures/linear_upsample_zoom.png>
 Package pdftex.def Info: figures/linear_upsample_zoom.png  used on input line 60.
 (pdftex.def)             Requested size: 234.8775pt x 181.32047pt.
 
 
-[8 <./figures/linear_upsample_whole.png> <./figures/linear_upsample_zoom.png>]
-<figures/upsample_time.png, id=178, 414.04688pt x 309.40594pt>
+[12 <./figures/linear_upsample_whole.png> <./figures/linear_upsample_zoom.png>]
+<figures/upsample_time.png, id=242, 414.04688pt x 309.40594pt>
 File: figures/upsample_time.png Graphic file (type png)
 <use figures/upsample_time.png>
 Package pdftex.def Info: figures/upsample_time.png  used on input line 71.
 (pdftex.def)             Requested size: 234.8775pt x 175.52284pt.
-<figures/upsample_freq.png, id=179, 417.81094pt x 310.91156pt>
+<figures/upsample_freq.png, id=243, 417.81094pt x 310.91156pt>
 File: figures/upsample_freq.png Graphic file (type png)
 <use figures/upsample_freq.png>
 Package pdftex.def Info: figures/upsample_freq.png  used on input line 78.
 (pdftex.def)             Requested size: 234.8775pt x 174.78767pt.
-<figures/upsample_time_zoom.png, id=182, 419.31656pt x 306.39468pt>
+<figures/upsample_time_zoom.png, id=246, 419.31656pt x 306.39468pt>
 File: figures/upsample_time_zoom.png Graphic file (type png)
 <use figures/upsample_time_zoom.png>
 Package pdftex.def Info: figures/upsample_time_zoom.png  used on input line 87.
 (pdftex.def)             Requested size: 234.8775pt x 171.62193pt.
 
 
-[9 <./figures/upsample_time.png> <./figures/upsample_freq.png>]
-<figures/upsample_freq_zoom.png, id=189, 395.97937pt x 310.15875pt>
+[13 <./figures/upsample_time.png> <./figures/upsample_freq.png>]
+<figures/upsample_freq_zoom.png, id=253, 395.97937pt x 310.15875pt>
 File: figures/upsample_freq_zoom.png Graphic file (type png)
 <use figures/upsample_freq_zoom.png>
 Package pdftex.def Info: figures/upsample_freq_zoom.png  used on input line 94.
 (pdftex.def)             Requested size: 234.8775pt x 183.97646pt.
 )
 
-[10 <./figures/upsample_time_zoom.png> <./figures/upsample_freq_zoom.png>] (./05-block5.tex
+[14 <./figures/upsample_time_zoom.png> <./figures/upsample_freq_zoom.png>] (./05-block5.tex
 Overfull \hbox (16.43977pt too wide) in paragraph at lines 18--19
 []\OT1/cmr/m/n/10 To op-ti-mize the beam-form-ing func-tion, we uti-lize \OT1/cmr/m/sc/10 MAT-LAB\OT1/cmr/m/n/10 's lin-ear vec-tor-iza-tion and pre-com-put-ing ca-pa-bil-i-ties,
  []
 
-<figures/beamform_fig1.png, id=198, 459.96844pt x 84.315pt>
+<figures/beamform_fig1.png, id=261, 459.96844pt x 84.315pt>
 File: figures/beamform_fig1.png Graphic file (type png)
 <use figures/beamform_fig1.png>
 Package pdftex.def Info: figures/beamform_fig1.png  used on input line 22.
 (pdftex.def)             Requested size: 234.8775pt x 43.05539pt.
-<figures/beamform_fig2.png, id=199, 383.18156pt x 73.77562pt>
+<figures/beamform_fig2.png, id=262, 383.18156pt x 73.77562pt>
 File: figures/beamform_fig2.png Graphic file (type png)
 <use figures/beamform_fig2.png>
 Package pdftex.def Info: figures/beamform_fig2.png  used on input line 31.
 (pdftex.def)             Requested size: 234.8775pt x 45.22256pt.
 
 
-[11 <./figures/beamform_fig1.png> <./figures/beamform_fig2.png>]
-<figures/beamform_fig3.png, id=207, 569.12625pt x 438.8897pt>
+[15 <./figures/beamform_fig1.png> <./figures/beamform_fig2.png>]
+<figures/beamform_fig3.png, id=269, 569.12625pt x 438.8897pt>
 File: figures/beamform_fig3.png Graphic file (type png)
 <use figures/beamform_fig3.png>
 Package pdftex.def Info: figures/beamform_fig3.png  used on input line 46.
 (pdftex.def)             Requested size: 234.8775pt x 181.13129pt.
-<figures/beamform_fig4.png, id=208, 1217.2978pt x 642.90187pt>
+<figures/beamform_fig4.png, id=270, 1217.2978pt x 642.90187pt>
 File: figures/beamform_fig4.png Graphic file (type png)
 <use figures/beamform_fig4.png>
 Package pdftex.def Info: figures/beamform_fig4.png  used on input line 55.
 (pdftex.def)             Requested size: 234.8775pt x 124.04593pt.
-<figures/beamform_fig5.png, id=209, 691.83469pt x 490.08093pt>
+<figures/beamform_fig5.png, id=271, 691.83469pt x 490.08093pt>
 File: figures/beamform_fig5.png Graphic file (type png)
 <use figures/beamform_fig5.png>
 Package pdftex.def Info: figures/beamform_fig5.png  used on input line 64.
 (pdftex.def)             Requested size: 234.8775pt x 166.37854pt.
 
 
-[12 <./figures/beamform_fig3.png> <./figures/beamform_fig4.png>])
+[16 <./figures/beamform_fig3.png> <./figures/beamform_fig4.png>])
 Overfull \hbox (6.32924pt too wide) in paragraph at lines 72--80
 []\OT1/cmr/m/n/10 The beam-form-ing func-tion achieved an av-er-age ex-e-cu-tion time of 0.0023155 sec-onds, a sub-stan-tial im-prove-ment
  []
 
 
 
-[13 <./figures/beamform_fig5.png>] (./06-Conclusion.tex)
+[17 <./figures/beamform_fig5.png>] (./06-Conclusion.tex)
 
-[14] 
+[18] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (auxiliary/main.aux)
  ***********
@@ -1609,21 +1665,21 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F3AF6DAD6F92DC025FE6685FAB91E02E;1908.
+(rerunfilecheck)             Checksum: E353CCC04067D8F8D18B6700925FE178;2021.
  ) 
 Here is how much of TeX's memory you used:
- 62648 strings out of 473362
- 1567450 string characters out of 5725044
- 2401756 words of memory out of 5000000
- 84690 multiletter control sequences out of 15000+600000
+ 62734 strings out of 473362
+ 1569583 string characters out of 5725044
+ 2401966 words of memory out of 5000000
+ 84760 multiletter control sequences out of 15000+600000
  567960 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,13n,110p,7197b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb>
-Output written on auxiliary/main.pdf (16 pages, 1651356 bytes).
+Output written on auxiliary/main.pdf (20 pages, 2007297 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 245 words of extra memory for PDF output out of 10000 (max. 10000000)
 

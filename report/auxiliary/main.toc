@@ -1,13 +1,14 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {section}{\numberline {2}Block 1: Noise Removal, Bandwidth Limiting, and Bias Correction}{4}{section.2}%
-\contentsline {section}{\numberline {3}Block 2: Calibration}{5}{section.3}%
-\contentsline {section}{\numberline {4}Block 2 : Time Gain Compensation}{6}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Theory}{6}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Analysis}{6}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Block 4: Upsampling (2x)}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Implementation}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Analysis}{8}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Block 5: Beamforming}{11}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Implementation}{11}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Analysis}{12}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Conclusion}{14}{section.7}%
+\contentsline {section}{\numberline {3}Block 2: Calibration}{6}{section.3}%
+\contentsline {section}{\numberline {4}Block 2 : Time Gain Compensation}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Theory}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analysis}{8}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Performance}{9}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Block 4: Upsampling (2x)}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Implementation}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Analysis}{12}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Block 5: Beamforming}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Implementation}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis}{16}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Conclusion}{18}{section.7}%

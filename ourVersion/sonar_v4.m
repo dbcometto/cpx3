@@ -219,7 +219,8 @@ while game_on > 0
   %  adjust for annenuation of signal over distance
     time1 = tic;
  
-    [data] = time_gain_compensation(data, timeGainValue); 
+%     [data] = time_gain_compensation(data, timeGainValue);
+    [data] = time_gain_compensation(data, N); 
     
     time2 = toc(time1);
     Stage2_TGC_time = time2
