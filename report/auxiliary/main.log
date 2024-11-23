@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  23 NOV 2024 05:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.21)  23 NOV 2024 05:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1486,9 +1486,9 @@ File: figures/stages.png Graphic file (type png)
 <use figures/stages.png>
 Package pdftex.def Info: figures/stages.png  used on input line 28.
 (pdftex.def)             Requested size: 352.31625pt x 243.44809pt.
+)
 
-
-[3])
+[3]
 
 [4 <./figures/stages.png>] (./03-block3.tex
 Overfull \hbox (17.63606pt too wide) in paragraph at lines 3--3
@@ -1616,19 +1616,19 @@ Package pdftex.def Info: figures/upsample_freq_zoom.png  used on input line 94.
 )
 
 [15 <./figures/upsample_time_zoom.png> <./figures/upsample_freq_zoom.png>] (./05-block5.tex
-Overfull \hbox (16.43977pt too wide) in paragraph at lines 18--19
+Overfull \hbox (16.43977pt too wide) in paragraph at lines 19--20
 []\OT1/cmr/m/n/10 To op-ti-mize the beam-form-ing func-tion, we uti-lize \OT1/cmr/m/sc/10 MAT-LAB\OT1/cmr/m/n/10 's lin-ear vec-tor-iza-tion and pre-com-put-ing ca-pa-bil-i-ties,
  []
 
 <figures/beamform_fig1.png, id=265, 459.96844pt x 84.315pt>
 File: figures/beamform_fig1.png Graphic file (type png)
 <use figures/beamform_fig1.png>
-Package pdftex.def Info: figures/beamform_fig1.png  used on input line 22.
+Package pdftex.def Info: figures/beamform_fig1.png  used on input line 23.
 (pdftex.def)             Requested size: 234.8775pt x 43.05539pt.
 <figures/beamform_fig2.png, id=266, 383.18156pt x 73.77562pt>
 File: figures/beamform_fig2.png Graphic file (type png)
 <use figures/beamform_fig2.png>
-Package pdftex.def Info: figures/beamform_fig2.png  used on input line 31.
+Package pdftex.def Info: figures/beamform_fig2.png  used on input line 32.
 (pdftex.def)             Requested size: 234.8775pt x 45.22256pt.
 
 
@@ -1636,22 +1636,22 @@ Package pdftex.def Info: figures/beamform_fig2.png  used on input line 31.
 <figures/beamform_fig3.png, id=273, 569.12625pt x 438.8897pt>
 File: figures/beamform_fig3.png Graphic file (type png)
 <use figures/beamform_fig3.png>
-Package pdftex.def Info: figures/beamform_fig3.png  used on input line 46.
+Package pdftex.def Info: figures/beamform_fig3.png  used on input line 47.
 (pdftex.def)             Requested size: 234.8775pt x 181.13129pt.
 <figures/beamform_fig4.png, id=274, 1217.2978pt x 642.90187pt>
 File: figures/beamform_fig4.png Graphic file (type png)
 <use figures/beamform_fig4.png>
-Package pdftex.def Info: figures/beamform_fig4.png  used on input line 55.
+Package pdftex.def Info: figures/beamform_fig4.png  used on input line 56.
 (pdftex.def)             Requested size: 234.8775pt x 124.04593pt.
 <figures/beamform_fig5.png, id=275, 691.83469pt x 490.08093pt>
 File: figures/beamform_fig5.png Graphic file (type png)
 <use figures/beamform_fig5.png>
-Package pdftex.def Info: figures/beamform_fig5.png  used on input line 64.
+Package pdftex.def Info: figures/beamform_fig5.png  used on input line 65.
 (pdftex.def)             Requested size: 234.8775pt x 166.37854pt.
 
 
 [17 <./figures/beamform_fig3.png> <./figures/beamform_fig4.png>])
-Overfull \hbox (6.32924pt too wide) in paragraph at lines 72--80
+Overfull \hbox (6.32924pt too wide) in paragraph at lines 73--80
 []\OT1/cmr/m/n/10 The beam-form-ing func-tion achieved an av-er-age ex-e-cu-tion time of 0.0023155 sec-onds, a sub-stan-tial im-prove-ment
  []
 
@@ -1678,7 +1678,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  104i,13n,110p,7197b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb>
-Output written on auxiliary/main.pdf (21 pages, 2006904 bytes).
+Output written on auxiliary/main.pdf (21 pages, 2007001 bytes).
 PDF statistics:
  371 PDF objects out of 1000 (max. 8388607)
  271 compressed objects within 3 object streams
