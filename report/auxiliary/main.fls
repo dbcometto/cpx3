@@ -702,6 +702,9 @@ INPUT ./figures/stages.png
 INPUT ./figures/stages.png
 INPUT ./figures/stages.png
 INPUT ./figures/stages.png
+INPUT ./03-block3.tex
+INPUT ./03-block3.tex
+INPUT ./03-block3.tex
 INPUT ./01-block1.tex
 INPUT ./01-block1.tex
 INPUT ./01-block1.tex
@@ -714,9 +717,6 @@ INPUT ./figures/time_gain_1.png
 INPUT ./figures/time_gain_1.png
 INPUT ./figures/time_gain_1.png
 INPUT ./figures/time_gain_1.png
-INPUT ./03-block3.tex
-INPUT ./03-block3.tex
-INPUT ./03-block3.tex
 INPUT ./04-block4.tex
 INPUT ./04-block4.tex
 INPUT ./04-block4.tex

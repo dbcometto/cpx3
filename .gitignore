@@ -1,1 +1,10 @@
 *.asv
+/report/auxiliary
+*.log
+*.aux
+*.fls
+report/auxiliary/main.fls
+report/auxiliary/main.log
+report/auxiliary/main.lot
+report/auxiliary/main.out
+report/auxiliary/main.toc
