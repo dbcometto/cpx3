@@ -1,8 +1,8 @@
-PWD c:/ECE 434/cpx3/report
+PWD c:/Users/C25Dante.Cometto/cpx3/report
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/ECE 434/cpx3/report/main.tex
+INPUT c:/Users/C25Dante.Cometto/cpx3/report/main.tex
 OUTPUT auxiliary/main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
