@@ -40,33 +40,12 @@ while count < 30 && count < length(data(:,1))
 end
 idx = idx - 1;
 
-count = 0;
-fin = idx;
-while count < 10 && count < length(data(:,1))
-    if temp(fin,1) > .03
-        count = count + 1;
-    else
-        count = 0;
-    end
-    fin = fin + 1;
-end
-fin = fin - 1;
-count = 0;
-while count < 30 && count < length(data(:,1))
-    if temp(fin,1) < .02
-        count = count + 1;
-    else
-        count = 0;
-    end
-    fin = fin + 1;
-end
-fin = fin - 1;
-
 data(1:1:idx,:) = data(1:1);
-data(fin:1:end,:) = data(1:1);
+%data(fin:1:end,:) = data(1:1);
 data(1:1:end-begin,:) = data(begin+1:1:end,:);
+data(1+end-begin:1:end,:) = data(1:1);
 
-his = max(temp(idx:1:fin,:));
+his = max(temp(idx:1:end,:));
 rels = his/max(his);
 
 for n = 1:1:4

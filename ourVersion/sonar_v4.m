@@ -275,7 +275,9 @@ while game_on > 0
         xlabel('frequency (Hz)');
     end
    
-   
+    %break
+
+
     % STAGE 5:  Beamforming
     % Convert the data from the 4 channels into 21 "beams" using simple
     % delay-sum beamforming
