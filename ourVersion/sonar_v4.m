@@ -45,7 +45,14 @@ SF = zeros(4,1);
 
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
 % -- add your look-up tables here.  They don't cost you any time here
+
+
+%time-gain computation 
+sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
+timeGainValue = (1 + sampleIndex./c);
+
 load lpf_upsample.bin -mat % load upsampling filer coefficients
+
 
 
 %blackman filter coefficients
@@ -212,7 +219,7 @@ while game_on > 0
   %  adjust for annenuation of signal over distance
     time1 = tic;
  
-    [data] = time_gain_compensation(data, N); 
+    [data] = time_gain_compensation(data, timeGainValue); 
     
     time2 = toc(time1);
     Stage2_TGC_time = time2
