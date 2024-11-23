@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  23 NOV 2024 04:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  23 NOV 2024 04:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,19 +1488,29 @@ Package pdftex.def Info: figures/stages.png  used on input line 21.
 (pdftex.def)             Requested size: 352.31625pt x 243.44809pt.
 )
 
-[3 <./figures/stages.png>] (./01-block1.tex)
+[3 <./figures/stages.png>] (./03-block3.tex
+Overfull \hbox (17.63606pt too wide) in paragraph at lines 3--3
+[]\OT1/cmr/bx/n/14.4 Block 1: Noise Re-moval, Band-width Lim-it-ing, and Bias Cor-rec-tion 
+ []
 
-[4] (./02-block2.tex
-<figures/time_gain_1.png, id=132, 745.78625pt x 632.3625pt>
+)
+Overfull \hbox (4.27347pt too wide) in paragraph at lines 19--72
+[]\OT1/cmr/m/n/10 We de-cided to place this block first, as the noise-reduced sig-nal is much sim-pler to deal with when im-ple-ment-ing
+ []
+
+
+
+[4] (./01-block1.tex)
+
+[5] (./02-block2.tex
+<figures/time_gain_1.png, id=137, 745.78625pt x 632.3625pt>
 File: figures/time_gain_1.png Graphic file (type png)
 <use figures/time_gain_1.png>
 Package pdftex.def Info: figures/time_gain_1.png  used on input line 15.
 (pdftex.def)             Requested size: 234.8775pt x 199.15665pt.
 )
 
-[5 <./figures/time_gain_1.png>] (./03-block3.tex)
-
-[6] (./04-block4.tex
+[6 <./figures/time_gain_1.png>] (./04-block4.tex
 <figures/upsample_freq_response.png, id=149, 385.44pt x 179.92218pt>
 File: figures/upsample_freq_response.png Graphic file (type png)
 <use figures/upsample_freq_response.png>
@@ -1599,7 +1609,7 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5F2AC7E364DD48BB09D4EC99E5A99F6;1421.
+(rerunfilecheck)             Checksum: C3AF40158B4070321F82F7A5349C0F62;1801.
  ) 
 Here is how much of TeX's memory you used:
  62644 strings out of 473362
@@ -1610,7 +1620,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  104i,13n,110p,7210b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb>
-Output written on auxiliary/main.pdf (16 pages, 1646471 bytes).
+Output written on auxiliary/main.pdf (16 pages, 1650836 bytes).
 PDF statistics:
  291 PDF objects out of 1000 (max. 8388607)
  213 compressed objects within 3 object streams
