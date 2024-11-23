@@ -1,31 +1,31 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.20)  22 NOV 2024 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.18)  23 NOV 2024 04:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/C25Dante.Cometto/cpx3/report/main.tex
-(c:/Users/C25Dante.Cometto/cpx3/report/main.tex
-LaTeX2e <2024-11-01>
-L3 programming layer <2024-11-02>
-(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+**c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex
+(c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count196
-\c@section=\count197
-\c@subsection=\count198
-\c@subsubsection=\count199
-\c@paragraph=\count266
-\c@subparagraph=\count267
-\c@figure=\count268
-\c@table=\count269
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (./packages.tex (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (./packages.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -33,226 +33,222 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
-\ex@=\dimen142
-)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen141
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
-) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen142
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count270
+\inf@bad=\count195
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count271
-\leftroot@=\count272
+\uproot@=\count196
+\leftroot@=\count197
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count273
-\DOTSCASE@=\count274
+\classnum@=\count198
+\DOTSCASE@=\count199
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box51
+\strutbox@=\box52
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen144
+\big@size=\dimen143
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count275
+\macc@depth=\count266
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count276
-\dotsspace@=\muskip17
-\c@parentequation=\count277
-\dspbrk@lvl=\count278
+\c@MaxMatrixCols=\count267
+\dotsspace@=\muskip16
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
 \tag@help=\toks19
-\row@=\count279
-\column@=\count280
-\maxfields@=\count281
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
 \andhelp@=\toks20
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
 \@envbody=\toks21
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+
+LaTeX Warning: You have requested release `2024/06/01' of LaTeX,
+               but only release `2023-11-01' is available.
+
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen151
-\ar@mcellbox=\box54
-\extrarowheight=\dimen152
+\col@sep=\dimen150
+\ar@mcellbox=\box53
+\extrarowheight=\dimen151
 \NC@list=\toks23
-\extratabsurround=\skip54
-\backup@length=\skip55
-\ar@cellbox=\box55
-) (c:/texlive/2024/texmf-dist/tex/latex/asymptote/asymptote.sty
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box54
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-local/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2024/02/26 v1.38 Asymptote style file for LaTeX
  (auxiliary/main.pre)
-\ASYbox=\box56
-\ASYdimen=\dimen153
-\c@asy=\count282
+\ASYbox=\box55
+\ASYdimen=\dimen152
+\c@asy=\count273
 \AsyStream=\write3
 \AsyPreStream=\write4
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks24
-) (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen154
-\Gin@req@width=\dimen155
-) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifpdf.sty
+\Gin@req@height=\dimen153
+\Gin@req@width=\dimen154
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
-)) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (c:/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
+)
 \openout4 = `main.pre'.
 
-) (c:/texlive/2024/texmf-dist/tex/latex/bytefield/bytefield.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bytefield/bytefield.sty
 Package: bytefield 2023/09/24 v2.8 Network protocol diagrams
- (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count283
-\calc@Bcount=\count284
-\calc@Adimen=\dimen156
-\calc@Bdimen=\dimen157
-\calc@Askip=\skip56
-\calc@Bskip=\skip57
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count285
-\calc@Cskip=\skip58
+\calc@Ccount=\count276
+\calc@Cskip=\skip57
 )
-\bytefield@height=\skip59
-\bytefield@height@increment=\skip60
-\entire@bytefield@picture=\box57
-\bf@bitwidth=\skip61
-\bf@bitheight=\skip62
-\units@wide=\skip63
-\units@tall=\skip64
-\units@high=\skip65
-\header@xpos=\skip66
-\c@header@val=\count286
-\c@max@header@val=\count287
-\curly@box=\box58
-\wordlabelr@start=\skip67
-\wordlabelr@end=\skip68
-\wordlabell@start=\skip69
-\wordlabell@end=\skip70
-\total@lbox@width=\skip71
-\label@box@width=\skip72
-\label@box@height=\skip73
-\word@label@box=\box59
-) (c:/texlive/2024/texmf-dist/tex/latex/cancel/cancel.sty
+\bytefield@height=\skip58
+\bytefield@height@increment=\skip59
+\entire@bytefield@picture=\box56
+\bf@bitwidth=\skip60
+\bf@bitheight=\skip61
+\units@wide=\skip62
+\units@tall=\skip63
+\units@high=\skip64
+\header@xpos=\skip65
+\c@header@val=\count277
+\c@max@header@val=\count278
+\curly@box=\box57
+\wordlabelr@start=\skip66
+\wordlabelr@end=\skip67
+\wordlabell@start=\skip68
+\wordlabell@end=\skip69
+\total@lbox@width=\skip70
+\label@box@width=\skip71
+\label@box@height=\skip72
+\word@label@box=\box58
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (c:/texlive/2024/texmf-dist/tex/latex/changepage/changepage.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count288
-\cp@tempcnt=\count289
-) (c:/texlive/2024/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+\c@cp@cntr=\count279
+\cp@tempcnt=\count280
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/circuitikz/circuitikz.sty
 Package: circuitikz 2024/08/03{} The CircuiTikz circuit drawing package version 1.7.0
- (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen158
-\pgfutil@tempdimb=\dimen159
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box60
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box59
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen160
-\pgf@y=\dimen161
-\pgf@xa=\dimen162
-\pgf@ya=\dimen163
-\pgf@xb=\dimen164
-\pgf@yb=\dimen165
-\pgf@xc=\dimen166
-\pgf@yc=\dimen167
-\pgf@xd=\dimen168
-\pgf@yd=\dimen169
+\pgf@x=\dimen159
+\pgf@y=\dimen160
+\pgf@xa=\dimen161
+\pgf@ya=\dimen162
+\pgf@xb=\dimen163
+\pgf@yb=\dimen164
+\pgf@xc=\dimen165
+\pgf@yc=\dimen166
+\pgf@xd=\dimen167
+\pgf@yd=\dimen168
 \w@pgf@writea=\write5
 \r@pgf@reada=\read2
-\c@pgf@counta=\count290
-\c@pgf@countb=\count291
-\c@pgf@countc=\count292
-\c@pgf@countd=\count293
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count294
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+\pgf@sys@id@count=\count285
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count295
-\pgfsyssoftpath@bigbuffer@items=\count296
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+\pgfsyssoftpath@smallbuffer@items=\count286
+\pgfsyssoftpath@bigbuffer@items=\count287
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -262,287 +258,288 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen170
-\pgfmath@count=\count297
-\pgfmath@box=\box61
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen169
+\pgfmath@count=\count288
+\pgfmath@box=\box60
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count298
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count289
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen171
-\pgf@picmaxx=\dimen172
-\pgf@picminy=\dimen173
-\pgf@picmaxy=\dimen174
-\pgf@pathminx=\dimen175
-\pgf@pathmaxx=\dimen176
-\pgf@pathminy=\dimen177
-\pgf@pathmaxy=\dimen178
-\pgf@xx=\dimen179
-\pgf@xy=\dimen180
-\pgf@yx=\dimen181
-\pgf@yy=\dimen182
-\pgf@zx=\dimen183
-\pgf@zy=\dimen184
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+\pgf@picminx=\dimen170
+\pgf@picmaxx=\dimen171
+\pgf@picminy=\dimen172
+\pgf@picmaxy=\dimen173
+\pgf@pathminx=\dimen174
+\pgf@pathmaxx=\dimen175
+\pgf@pathminy=\dimen176
+\pgf@pathmaxy=\dimen177
+\pgf@xx=\dimen178
+\pgf@xy=\dimen179
+\pgf@yx=\dimen180
+\pgf@yy=\dimen181
+\pgf@zx=\dimen182
+\pgf@zy=\dimen183
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen185
-\pgf@path@lasty=\dimen186
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+\pgf@path@lastx=\dimen184
+\pgf@path@lasty=\dimen185
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen187
-\pgf@shorten@start@additional=\dimen188
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+\pgf@shorten@end@additional=\dimen186
+\pgf@shorten@start@additional=\dimen187
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count299
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+\pgfpic=\box61
+\pgf@hbox=\box62
+\pgf@layerbox@main=\box63
+\pgf@picture@serial@count=\count290
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen189
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+\pgflinewidth=\dimen188
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen190
-\pgf@pt@y=\dimen191
-\pgf@pt@temp=\dimen192
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+\pgf@pt@x=\dimen189
+\pgf@pt@y=\dimen190
+\pgf@pt@temp=\dimen191
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen193
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+\pgfarrowsep=\dimen192
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen194
-\pgf@sys@shading@range@num=\count300
-\pgf@shadingcount=\count301
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+\pgf@max=\dimen193
+\pgf@sys@shading@range@num=\count291
+\pgf@shadingcount=\count292
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box65
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+\pgfexternal@startupbox=\box64
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box66
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+\pgfnodeparttextbox=\box65
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen195
-\pgf@nodesepend=\dimen196
-) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+\pgf@nodesepstart=\dimen194
+\pgf@nodesepend=\dimen195
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen197
-\pgffor@skip=\dimen198
+\pgffor@iter=\dimen196
+\pgffor@skip=\dimen197
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count302
-\pgfplotmarksize=\dimen199
+\pgf@plot@mark@count=\count293
+\pgfplotmarksize=\dimen198
 )
-\tikz@lastx=\dimen256
-\tikz@lasty=\dimen257
-\tikz@lastxsaved=\dimen258
-\tikz@lastysaved=\dimen259
-\tikz@lastmovetox=\dimen260
-\tikz@lastmovetoy=\dimen261
-\tikzleveldistance=\dimen262
-\tikzsiblingdistance=\dimen263
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count303
-\tikznumberofchildren=\count304
-\tikznumberofcurrentchild=\count305
-\tikz@fig@count=\count306
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+\tikz@lastx=\dimen199
+\tikz@lasty=\dimen256
+\tikz@lastxsaved=\dimen257
+\tikz@lastysaved=\dimen258
+\tikz@lastmovetox=\dimen259
+\tikz@lastmovetoy=\dimen260
+\tikzleveldistance=\dimen261
+\tikzsiblingdistance=\dimen262
+\tikz@figbox=\box66
+\tikz@figbox@bg=\box67
+\tikz@tempbox=\box68
+\tikz@tempbox@bg=\box69
+\tikztreelevel=\count294
+\tikznumberofchildren=\count295
+\tikznumberofcurrentchild=\count296
+\tikz@fig@count=\count297
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count307
-\pgfmatrixcurrentcolumn=\count308
-\pgf@matrix@numberofcolumns=\count309
+\pgfmatrixcurrentrow=\count298
+\pgfmatrixcurrentcolumn=\count299
+\pgf@matrix@numberofcolumns=\count300
 )
-\tikz@expandcount=\count310
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+\tikz@expandcount=\count301
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen264
-\pgfarrowlength=\dimen265
-\pgfarrowwidth=\dimen266
-\pgfarrowlinewidth=\dimen267
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybending.code.tex
+\pgfarrowinset=\dimen263
+\pgfarrowlength=\dimen264
+\pgfarrowwidth=\dimen265
+\pgfarrowlinewidth=\dimen266
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybending.code.tex
 File: tikzlibrarybending.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.tex
 File: pgfmodulebending.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformations.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransformations.code.tex
 File: pgfmodulenonlineartransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgftransformnonlinearflatness=\dimen268
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
-File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@curvilinear@time@a=\dimen269
-\pgf@curvilinear@length@a=\dimen270
-\pgf@curvilinear@length@b=\dimen271
-\pgf@curvilinear@length@c=\dimen272
-\pgf@curvilinear@length@d=\dimen273
+\pgftransformnonlinearflatness=\dimen267
 )
-\pgf@arrows@the@rigidity=\dimen274
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count311
-\pgf@circ@count@b=\count312
-\pgf@circ@count@c=\count313
-\pgf@circ@res@up=\dimen275
-\pgf@circ@res@down=\dimen276
-\pgf@circ@res@zero=\dimen277
-\pgf@circ@res@left=\dimen278
-\pgf@circ@res@right=\dimen279
-\pgf@circ@res@other=\dimen280
-\pgf@circ@res@step=\dimen281
-\pgf@circ@res@temp=\dimen282
-\pgf@circ@Rlen=\dimen283
-\pgf@circ@scaled@Rlen=\dimen284
-\pgfstartlinewidth=\dimen285
-) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box71
-) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count314
-) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen286
-) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex) (c:/texlive/2024/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)) (c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.code.tex
+File: pgflibrarycurvilinear.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@curvilinear@time@a=\dimen268
+\pgf@curvilinear@length@a=\dimen269
+\pgf@curvilinear@length@b=\dimen270
+\pgf@curvilinear@length@c=\dimen271
+\pgf@curvilinear@length@d=\dimen272
+)
+\pgf@arrows@the@rigidity=\dimen273
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfpu.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count302
+\pgf@circ@count@b=\count303
+\pgf@circ@count@c=\count304
+\pgf@circ@res@up=\dimen274
+\pgf@circ@res@down=\dimen275
+\pgf@circ@res@zero=\dimen276
+\pgf@circ@res@left=\dimen277
+\pgf@circ@res@right=\dimen278
+\pgf@circ@res@other=\dimen279
+\pgf@circ@res@step=\dimen280
+\pgf@circ@res@temp=\dimen281
+\pgf@circ@Rlen=\dimen282
+\pgf@circ@scaled@Rlen=\dimen283
+\pgfstartlinewidth=\dimen284
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box70
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count305
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen285
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks37
-\minrowclearance=\skip74
-\rownum=\count315
-) (c:/texlive/2024/texmf-dist/tex/latex/comment/comment.sty
+\minrowclearance=\skip73
+\rownum=\count306
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write6
- Excluding comment 'comment') (c:/texlive/2024/texmf-dist/tex/latex/mathtools/empheq.sty
+ Excluding comment 'comment') (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/empheq.sty
 Package: empheq 2024/08/09 v2.17 Emphasizing equations
- (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
-) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-\g_MT_multlinerow_int=\count316
-\l_MT_multwidth_dim=\dimen287
-\origjot=\skip75
-\l_MT_shortvdotswithinadjustabove_dim=\dimen288
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen289
-\l_MT_above_intertext_sep=\dimen290
-\l_MT_below_intertext_sep=\dimen291
-\l_MT_above_shortintertext_sep=\dimen292
-\l_MT_below_shortintertext_sep=\dimen293
-\xmathstrut@box=\box72
-\xmathstrut@dim=\dimen294
+\g_MT_multlinerow_int=\count307
+\l_MT_multwidth_dim=\dimen286
+\origjot=\skip74
+\l_MT_shortvdotswithinadjustabove_dim=\dimen287
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen288
+\l_MT_above_intertext_sep=\dimen289
+\l_MT_below_intertext_sep=\dimen290
+\l_MT_above_shortintertext_sep=\dimen291
+\l_MT_below_shortintertext_sep=\dimen292
+\xmathstrut@box=\box71
+\xmathstrut@dim=\dimen293
 )
-\l_EQ_equationtype_int=\count317
-\l_EQ_alignmentmode_int=\count318
-\l_EQ_totalwidth_dim=\dimen295
-\l_EQ_displaywidth_dim=\dimen296
-\l_EQ_temp_linewidth_dim=\dimen297
-\l_EQ_linewidth_dim=\dimen298
-\EmphEqdelimitershortfall=\dimen299
-\EmphEqdelimiterfactor=\count319
-\g_EQ_toptag_height_dim=\dimen300
-\g_EQ_bottomtag_depth_dim=\dimen301
-\g_EQ_toprow_height_dim=\dimen302
-\g_EQ_bottomrow_depth_dim=\dimen303
-\g_EQ_widesttag_dim=\dimen304
-\EQ_mathdisplay_box=\box73
-\EQ_tag_box=\box74
-\g_EQ_temprow_int=\count320
-) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+\l_EQ_equationtype_int=\count308
+\l_EQ_alignmentmode_int=\count309
+\l_EQ_totalwidth_dim=\dimen294
+\l_EQ_displaywidth_dim=\dimen295
+\l_EQ_temp_linewidth_dim=\dimen296
+\l_EQ_linewidth_dim=\dimen297
+\EmphEqdelimitershortfall=\dimen298
+\EmphEqdelimiterfactor=\count310
+\g_EQ_toptag_height_dim=\dimen299
+\g_EQ_bottomtag_depth_dim=\dimen300
+\g_EQ_toprow_height_dim=\dimen301
+\g_EQ_bottomrow_depth_dim=\dimen302
+\g_EQ_widesttag_dim=\dimen303
+\EQ_mathdisplay_box=\box72
+\EQ_tag_box=\box73
+\g_EQ_temprow_int=\count311
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip76
-\enit@outerparindent=\dimen305
+\labelindent=\skip75
+\enit@outerparindent=\dimen304
 \enit@toks=\toks38
-\enit@inbox=\box75
-\enit@count@id=\count321
-\enitdp@description=\count322
-) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+\enit@inbox=\box74
+\enit@count@id=\count312
+\enitdp@description=\count313
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count323
-) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip77
-\f@nch@O@elh=\skip78
-\f@nch@O@erh=\skip79
-\f@nch@O@olh=\skip80
-\f@nch@O@orh=\skip81
-\f@nch@O@elf=\skip82
-\f@nch@O@erf=\skip83
-\f@nch@O@olf=\skip84
-\f@nch@O@orf=\skip85
-) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+\etb@tempcnta=\count314
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2024/11/20 v4.4 Extensive control of page headers and footers
+\f@nch@headwidth=\skip76
+\f@nch@O@elh=\skip77
+\f@nch@O@erh=\skip78
+\f@nch@O@olh=\skip79
+\f@nch@O@orh=\skip80
+\f@nch@O@elf=\skip81
+\f@nch@O@erf=\skip82
+\f@nch@O@olf=\skip83
+\f@nch@O@orf=\skip84
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count324
+\c@float@type=\count315
 \float@exts=\toks39
-\float@box=\box76
+\float@box=\box75
 \@float@everytoks=\toks40
-\@floatcapt=\box77
-) (c:/texlive/2024/texmf-dist/tex/latex/hanging/hanging.sty
+\@floatcapt=\box76
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hanging/hanging.sty
 Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
-\h@ngcommawd=\skip86
-\h@ngfstopwd=\skip87
-\h@ngquotewd=\skip88
-\h@ngdquotewd=\skip89
-\h@ngquerywd=\skip90
-\h@ngexclwd=\skip91
-\h@ngcolonwd=\skip92
-\h@ngscolonwd=\skip93
-) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+\h@ngcommawd=\skip85
+\h@ngfstopwd=\skip86
+\h@ngquotewd=\skip87
+\h@ngdquotewd=\skip88
+\h@ngquerywd=\skip89
+\h@ngexclwd=\skip90
+\h@ngcolonwd=\skip91
+\h@ngscolonwd=\skip92
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count325
-\Gm@cntv=\count326
-\c@Gm@tempcnt=\count327
-\Gm@bindingoffset=\dimen306
-\Gm@wd@mp=\dimen307
-\Gm@odd@mp=\dimen308
-\Gm@even@mp=\dimen309
-\Gm@layoutwidth=\dimen310
-\Gm@layoutheight=\dimen311
-\Gm@layouthoffset=\dimen312
-\Gm@layoutvoffset=\dimen313
+\Gm@cnth=\count316
+\Gm@cntv=\count317
+\c@Gm@tempcnt=\count318
+\Gm@bindingoffset=\dimen305
+\Gm@wd@mp=\dimen306
+\Gm@odd@mp=\dimen307
+\Gm@even@mp=\dimen308
+\Gm@layoutwidth=\dimen309
+\Gm@layoutheight=\dimen310
+\Gm@layouthoffset=\dimen311
+\Gm@layoutvoffset=\dimen312
 \Gm@dimlist=\toks41
-) (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage.sty
 Package: lastpage 2024/07/07 v2.1c lastpage: 2.09 or 2e? (HMM)
- (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpage2e.sty
 Package: lastpage2e 2024/07/07 v2.1c Decide which 2e lastpage version to use (HMM)
- (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2024-07-07 v2.1c Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count328
+\c@lastpagecount=\count319
 ) 
-)) (c:/texlive/2024/texmf-dist/tex/generic/mathabx/mathabx.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/mathabx/mathabx.sty
 Package: mathabx 2003/07/29 v0.0 Non-standard LaTeX package mathabx
 \symmatha=\mathgroup6
 \symmathb=\mathgroup7
 \symmathx=\mathgroup8
- (c:/texlive/2024/texmf-dist/tex/generic/mathabx/mathabx.dcl
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/mathabx/mathabx.dcl
 LaTeX Font Info:    Redeclaring math symbol \cdotp on input line 25.
 LaTeX Font Info:    Redeclaring math symbol \times on input line 33.
 LaTeX Font Info:    Redeclaring math symbol \div on input line 34.
@@ -780,11 +777,11 @@ LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 683.
 LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 684.
 LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 686.
 LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 688.
-\mayacnter=\count329
-\mayacnta=\count330
-\mayacntb=\count331
-\mayacntc=\count332
-\mayawidth=\dimen314
+\mayacnter=\count320
+\mayacnta=\count321
+\mayacntb=\count322
+\mayacntc=\count323
+\mayawidth=\dimen313
 LaTeX Font Info:    Redeclaring math symbol \intop on input line 753.
 LaTeX Font Info:    Redeclaring math symbol \ointop on input line 760.
 LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 842.
@@ -813,464 +810,490 @@ LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 907.
 LaTeX Font Info:    Redeclaring math symbol \braceru on input line 909.
 LaTeX Font Info:    Redeclaring math accent \widehat on input line 944.
 LaTeX Font Info:    Redeclaring math accent \widetilde on input line 946.
-)) (c:/texlive/2024/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup9
-) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip94
-\multirow@cntb=\count333
-\multirow@dima=\skip95
-\bigstrutjot=\dimen315
-) (c:/texlive/2024/texmf-dist/tex/latex/pbox/pbox.sty
+\multirow@colwidth=\skip93
+\multirow@cntb=\count324
+\multirow@dima=\skip94
+\bigstrutjot=\dimen314
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pbox/pbox.sty
 Package: pbox 2011/12/07 v1.2 Dynamic parboxes
-\pb@xlen=\skip96
-) (c:/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+\pb@xlen=\skip95
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgfplots/pgfplots.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
- (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks42
 \t@pgfplots@tokb=\toks43
 \t@pgfplots@tokc=\toks44
-\pgfplots@tmpa=\dimen316
-\c@pgfplots@coordindex=\count334
-\c@pgfplots@scanlineindex=\count335
- (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
+\pgfplots@tmpa=\dimen315
+\c@pgfplots@coordindex=\count325
+\c@pgfplots@scanlineindex=\count326
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex
 Package pgfplots: loading complementary utilities for your pgf version...
 \t@pgf@toka=\toks45
 \t@pgf@tokb=\toks46
 \t@pgf@tokc=\toks47
-(c:/texlive/2024/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count336
-) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count337
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count327
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count328
 \t@pgfplotstable@a=\toks48
-) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count338
- (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen317
-\pgfdecoratedremainingdistance=\dimen318
-\pgfdecoratedinputsegmentcompleteddistance=\dimen319
-\pgfdecoratedinputsegmentremainingdistance=\dimen320
-\pgf@decorate@distancetomove=\dimen321
-\pgf@decorate@repeatstate=\count339
-\pgfdecorationsegmentamplitude=\dimen322
-\pgfdecorationsegmentlength=\dimen323
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count329
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen316
+\pgfdecoratedremainingdistance=\dimen317
+\pgfdecoratedinputsegmentcompleteddistance=\dimen318
+\pgfdecoratedinputsegmentremainingdistance=\dimen319
+\pgf@decorate@distancetomove=\dimen320
+\pgf@decorate@repeatstate=\count330
+\pgfdecorationsegmentamplitude=\dimen321
+\pgfdecorationsegmentlength=\dimen322
 )
-\tikz@lib@dec@box=\box78
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count340
-\pgfplots@xmin@reg=\dimen324
-\pgfplots@xmax@reg=\dimen325
-\pgfplots@ymin@reg=\dimen326
-\pgfplots@ymax@reg=\dimen327
-\pgfplots@zmin@reg=\dimen328
-\pgfplots@zmax@reg=\dimen329
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+\tikz@lib@dec@box=\box77
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count331
+\pgfplots@xmin@reg=\dimen323
+\pgfplots@xmax@reg=\dimen324
+\pgfplots@ymin@reg=\dimen325
+\pgfplots@ymax@reg=\dimen326
+\pgfplots@zmin@reg=\dimen327
+\pgfplots@zmax@reg=\dimen328
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplotstable 2021/05/15 v1.18.1 Table typesetting and Pretty-printing (1.18.1)
- (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex))) (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.coltype.code.tex))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
- (c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen330
-\ESO@tempdimb=\dimen331
+\ESO@tempdima=\dimen329
+\ESO@tempdimb=\dimen330
 )
-\AM@pagewidth=\dimen332
-\AM@pageheight=\dimen333
-\AM@fboxrule=\dimen334
- (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+\AM@pagewidth=\dimen331
+\AM@pageheight=\dimen332
+\AM@fboxrule=\dimen333
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count341
-\AM@pagebox=\box79
+\pdfpages@includegraphics@status=\count332
+\AM@pagebox=\box78
 \AM@global@opts=\toks49
-\AM@pagecnt=\count342
+\AM@pagecnt=\count333
 \AM@toc@title=\toks50
 \AM@lof@heading=\toks51
-\c@AM@survey=\count343
-\AM@templatesizebox=\box80
-) (c:/texlive/2024/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+\c@AM@survey=\count334
+\AM@templatesizebox=\box79
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip97
-\RaggedLeftLeftskip=\skip98
-\RaggedRightLeftskip=\skip99
-\CenteringRightskip=\skip100
-\RaggedLeftRightskip=\skip101
-\RaggedRightRightskip=\skip102
-\CenteringParfillskip=\skip103
-\RaggedLeftParfillskip=\skip104
-\RaggedRightParfillskip=\skip105
-\JustifyingParfillskip=\skip106
-\CenteringParindent=\skip107
-\RaggedLeftParindent=\skip108
-\RaggedRightParindent=\skip109
-\JustifyingParindent=\skip110
-) (c:/texlive/2024/texmf-dist/tex/latex/steinmetz/steinmetz.sty
+\CenteringLeftskip=\skip96
+\RaggedLeftLeftskip=\skip97
+\RaggedRightLeftskip=\skip98
+\CenteringRightskip=\skip99
+\RaggedLeftRightskip=\skip100
+\RaggedRightRightskip=\skip101
+\CenteringParfillskip=\skip102
+\RaggedLeftParfillskip=\skip103
+\RaggedRightParfillskip=\skip104
+\JustifyingParfillskip=\skip105
+\CenteringParindent=\skip106
+\RaggedLeftParindent=\skip107
+\RaggedRightParindent=\skip108
+\JustifyingParindent=\skip109
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/steinmetz/steinmetz.sty
 Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
- (c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pict2e/pict2e.sty
 Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
- (c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.cfg
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pict2e/pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 112.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
- (c:/texlive/2024/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks52
-\@arclen=\dimen335
-\@arcrad=\dimen336
-\pIIe@tempdima=\dimen337
-\pIIe@tempdimb=\dimen338
-\pIIe@tempdimc=\dimen339
-\pIIe@tempdimd=\dimen340
-\pIIe@tempdime=\dimen341
-\pIIe@tempdimf=\dimen342
+\@arclen=\dimen334
+\@arcrad=\dimen335
+\pIIe@tempdima=\dimen336
+\pIIe@tempdimb=\dimen337
+\pIIe@tempdimc=\dimen338
+\pIIe@tempdimd=\dimen339
+\pIIe@tempdime=\dimen340
+\pIIe@tempdimf=\dimen341
 )
-\stm@phasebox=\box81
-\stm@phasedp=\skip111
-\stm@phaseht=\skip112
-\stm@phasetot=\skip113
-\stm@phasewd=\skip114
-) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+\stm@phasebox=\box80
+\stm@phasedp=\skip110
+\stm@phaseht=\skip111
+\stm@phasetot=\skip112
+\stm@phasewd=\skip113
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
- (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen343
-\captionmargin=\dimen344
-\caption@leftmargin=\dimen345
-\caption@rightmargin=\dimen346
-\caption@width=\dimen347
-\caption@indent=\dimen348
-\caption@parindent=\dimen349
-\caption@hangindent=\dimen350
+\caption@tempdima=\dimen342
+\captionmargin=\dimen343
+\caption@leftmargin=\dimen344
+\caption@rightmargin=\dimen345
+\caption@width=\dimen346
+\caption@indent=\dimen347
+\caption@parindent=\dimen348
+\caption@hangindent=\dimen349
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count344
-\c@continuedfloat=\count345
+\c@caption@flags=\count335
+\c@continuedfloat=\count336
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen351
-\caption@adjustwidth@linewidth=\dimen352
+\caption@adjustwidth@hsize=\dimen350
+\caption@adjustwidth@linewidth=\dimen351
 Package caption Info: float package is loaded.
 )
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count346
+\c@subfigure=\count337
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count347
-) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+\c@subtable=\count338
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
 2024/04/19 5.10c tkz-euclide.sty
 Package: tkz-euclide  2024/04/19 5.10c for pure Euclidean Geometry 
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen353
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+\arrowsize=\dimen352
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box82
-\pgf@layerboxsaved@background=\box83
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.shapes.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box84
+\pgf@layerbox@background=\box81
+\pgf@layerboxsaved@background=\box82
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.shapes.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.text.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box83
 )
-\tikz@lib@dec@te@box=\box85
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count348
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymath.code.tex
-\tikz@math@for@depth=\count349
-\tikz@math@dimen=\dimen354
+\tikz@lib@dec@te@box=\box84
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count339
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymath.code.tex
+\tikz@math@for@depth=\count340
+\tikz@math@dimen=\dimen353
 \tikz@math@toks=\toks53
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryquotes.code.tex
 File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarythrough.code.tex
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarythrough.code.tex
 File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xfp/xfp.sty (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
- (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count350
-\l__pdf_internal_box=\box86
-))
-Package: xfp 2024-08-16 L3 Floating point unit
-) (c:/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xfp/xfp.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-01-22 L3 programming layer (loader) 
+
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty:78: LaTeX Error: Mismatched LaTeX support files detected.
+(LaTeX)        Loading 'expl3.sty' aborted!
+(LaTeX)        
+(LaTeX)        The L3 programming layer in the LaTeX format
+(LaTeX)        is dated 2024-01-04, but in your TeX tree the files require
+(LaTeX)        at least 2024-01-22.
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.78      \ExplLoaderFileDate{expl3.sty}}
+                                         %
+
+The most likely causes are:
+ - A recent format generation failed;
+ - A stray format file in the user tree which needs to be removed or rebuilt;
+ - You are running a manually installed version of expl3.sty
+   which is incompatible with the version in LaTeX.
+
+LaTeX will abort loading the incompatible support files but this may lead to
+later errors. Please ensure that your LaTeX format is correctly regenerated.
+
+
+)
+Package: xfp 2023-10-10 L3 Floating point unit
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
- (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
 ))
-\tkzRadius=\dimen355
-\tkzLength=\dimen356
-\tkz@radi=\dimen357
-\tkz@ax=\dimen358
-\tkz@ay=\dimen359
-\tkz@bx=\dimen360
-\tkz@by=\dimen361
-\tkz@cx=\dimen362
-\tkz@cy=\dimen363
-\tkz@dx=\dimen364
-\tkz@dy=\dimen365
-\tkz@cntmk=\count351
+\tkzRadius=\dimen354
+\tkzLength=\dimen355
+\tkz@radi=\dimen356
+\tkz@ax=\dimen357
+\tkz@ay=\dimen358
+\tkz@bx=\dimen359
+\tkz@by=\dimen360
+\tkz@cx=\dimen361
+\tkz@cy=\dimen362
+\tkz@dx=\dimen363
+\tkz@dy=\dimen364
+\tkz@cntmk=\count341
 
 Local configuration file tkz-euclide.cfg found and used
-(c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
 2024/04/19 5.10c tkz-euclide.cfg
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
 2024/04/19 5.10c tkz-tools-eu-base.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
 2024/04/19 5.10c tkz-tools-eu-utilities.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
 2024/04/19 5.10c tkz-obj-eu-BB.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
 2024/04/19 5.10c tkz-obj-eu-grids.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
 2024/04/19 5.10c tkz-lib-eu-marks.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
 2024/04/19 5.10c tkz-tools-eu-text.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
 2024/04/19 5.10c tkz-lib-eu-shape.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
 2024/04/19 5.10c tkz-obj-eu-axesmin
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
 2024/04/19 5.10c tkz-tools-eu-colors
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
 2024/04/19 5.10c tkz-obj-eu-points.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
 2024/04/19 5.10c tkz-draw-eu-points.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
 2024/04/19 5.10c tkz-obj-eu-points.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
 2024/04/19 5.10c tkz-tools-eu-points-by.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
 2024/04/19 5.10c tkz-tools-eu-math.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections.tex
 2024/04/19 5.10c tkz-tools-eu-intersections.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
 2024/04/19 5.10c tkz-obj-eu-points-with.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
 2024/04/19 5.10c tkz-obj-el-points.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
 2024/04/19 5.10c tkz-tools-eu-angles.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
 2024/04/19 5.10c tkz-obj-eu-circles.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
 2024/04/19 5.10c tkz-obj-eu-circles.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
 2024/04/19 5.10c tkz-obj-eu-points-rnd.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
 2024/04/19 5.10c tkz-obj-eu-lines.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
 2024/04/19 5.10c tkz-obj-eu-polygons.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2024/04/19 5.10c tkz-obj-eu-triangles.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
 2024/04/19 5.10c tkz-obj-eu-draw-lines.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
 2024/04/19 5.10c tkz-obj-eu-draw-circles.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
 2024/04/19 5.10c tkz-obj-eu-draw-ellipses.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
 2024/04/19 5.10c tkz-obj-eu-polygons.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-arcs.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-arcs.tex
 2024/04/19 5.10c tkz-tool-eu-arcs.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
 2024/04/19 5.10c tkz-tool-eu-angles.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
 2024/04/19 5.10c tkz-obj-eu-sectors.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
 2024/04/19 5.10c tkz-obj-eu-compass.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
 2024/04/19 5.10c tkz-obj-eu-show.tex
-) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
 2024/04/19 5.10c tkz-obj-eu-protractor.tex
-)) (c:/texlive/2024/texmf-dist/tex/generic/tikzducks/tikzducks.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tikzducks/tikzducks.sty
 Package: tikzducks 2024/04/27 version v1.8 Draw rubber ducks in TikZ
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/tikzducks/tikzducks-generic.tex)) (c:/texlive/2024/texmf-dist/tex/latex/tikzscale/tikzscale.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tikzducks/tikzducks-generic.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tikzscale/tikzscale.sty
 Package: tikzscale 2013/05/22 v0.2.6 tikzscale LaTeX package
- (c:/texlive/2024/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count352
-\xs_countb=\count353
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xstring/xstring.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count342
+\xs_countb=\count343
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
-\tikzscale@measuredSize=\box87
-) (c:/texlive/2024/texmf-dist/tex/generic/tikzducks/tikzlibraryducks.code.tex) (c:/texlive/2024/texmf-dist/tex/latex/textpos/textpos.sty
+\tikzscale@measuredSize=\box85
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tikzducks/tikzlibraryducks.code.tex) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/textpos/textpos.sty
 Package: textpos 2022/07/23 v1.10.1
 Package textpos Info: choosing support for LaTeX3 on input line 60.
-\TP@textbox=\box88
-\TP@holdbox=\box89
-\TPHorizModule=\dimen366
-\TPVertModule=\dimen367
-\TP@margin=\dimen368
-\TP@absmargin=\dimen369
+\TP@textbox=\box86
+\TP@holdbox=\box87
+\TPHorizModule=\dimen365
+\TPVertModule=\dimen366
+\TP@margin=\dimen367
+\TP@absmargin=\dimen368
 
 Grid set 16 x 16 = 38.39343pt x 49.68562pt
-\TPboxrulesize=\dimen370
-\TP@ox=\dimen371
-\TP@oy=\dimen372
+\TPboxrulesize=\dimen369
+\TP@ox=\dimen370
+\TP@oy=\dimen371
 \TP@tbargs=\toks54
 TextBlockOrigin set to 0pt x 0pt
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box90
-\pgfnodeparttwobox=\box91
-\pgfnodepartthreebox=\box92
-\pgfnodepartfourbox=\box93
-\pgfnodeparttwentybox=\box94
-\pgfnodepartnineteenbox=\box95
-\pgfnodeparteighteenbox=\box96
-\pgfnodepartseventeenbox=\box97
-\pgfnodepartsixteenbox=\box98
-\pgfnodepartfifteenbox=\box99
-\pgfnodepartfourteenbox=\box100
-\pgfnodepartthirteenbox=\box101
-\pgfnodeparttwelvebox=\box102
-\pgfnodepartelevenbox=\box103
-\pgfnodeparttenbox=\box104
-\pgfnodepartninebox=\box105
-\pgfnodeparteightbox=\box106
-\pgfnodepartsevenbox=\box107
-\pgfnodepartsixbox=\box108
-\pgfnodepartfivebox=\box109
-))) (c:/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
+\pgfnodepartlowerbox=\box88
+\pgfnodeparttwobox=\box89
+\pgfnodepartthreebox=\box90
+\pgfnodepartfourbox=\box91
+\pgfnodeparttwentybox=\box92
+\pgfnodepartnineteenbox=\box93
+\pgfnodeparteighteenbox=\box94
+\pgfnodepartseventeenbox=\box95
+\pgfnodepartsixteenbox=\box96
+\pgfnodepartfifteenbox=\box97
+\pgfnodepartfourteenbox=\box98
+\pgfnodepartthirteenbox=\box99
+\pgfnodeparttwelvebox=\box100
+\pgfnodepartelevenbox=\box101
+\pgfnodeparttenbox=\box102
+\pgfnodepartninebox=\box103
+\pgfnodeparteightbox=\box104
+\pgfnodepartsevenbox=\box105
+\pgfnodepartsixbox=\box106
+\pgfnodepartfivebox=\box107
+))) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen373
-\WF@size=\dimen374
-\c@WF@wrappedlines=\count354
-\WF@box=\box110
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen372
+\WF@size=\dimen373
+\c@WF@wrappedlines=\count344
+\WF@box=\box108
 \WF@everypar=\toks55
 Package: wrapfig 2003/01/31  v 3.6
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/varioref.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2024/05/23 v1.6g package for extended references (FMi)
-\c@vrcnt=\count355
-) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/x11nam.def
+\c@vrcnt=\count345
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
-) (c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip115
-\LTright=\skip116
-\LTpre=\skip117
-\LTpost=\skip118
-\LTchunksize=\count356
-\LTcapwidth=\dimen375
-\LT@head=\box111
-\LT@firsthead=\box112
-\LT@foot=\box113
-\LT@lastfoot=\box114
-\LT@gbox=\box115
-\LT@cols=\count357
-\LT@rows=\count358
-\c@LT@tables=\count359
-\c@LT@chunks=\count360
+\LTleft=\skip114
+\LTright=\skip115
+\LTpre=\skip116
+\LTpost=\skip117
+\LTchunksize=\count346
+\LTcapwidth=\dimen374
+\LT@head=\box109
+\LT@firsthead=\box110
+\LT@foot=\box111
+\LT@lastfoot=\box112
+\LT@gbox=\box113
+\LT@cols=\count347
+\LT@rows=\count348
+\c@LT@tables=\count349
+\c@LT@chunks=\count350
 \LT@p@ftn=\toks56
-) (c:/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen376
-\lightrulewidth=\dimen377
-\cmidrulewidth=\dimen378
-\belowrulesep=\dimen379
-\belowbottomsep=\dimen380
-\aboverulesep=\dimen381
-\abovetopsep=\dimen382
-\cmidrulesep=\dimen383
-\cmidrulekern=\dimen384
-\defaultaddspace=\dimen385
-\@cmidla=\count361
-\@cmidlb=\count362
-\@aboverulesep=\dimen386
-\@belowrulesep=\dimen387
-\@thisruleclass=\count363
-\@lastruleclass=\count364
-\@thisrulewidth=\dimen388
-) (c:/texlive/2024/texmf-dist/tex/latex/gensymb/gensymb.sty
+\heavyrulewidth=\dimen375
+\lightrulewidth=\dimen376
+\cmidrulewidth=\dimen377
+\belowrulesep=\dimen378
+\belowbottomsep=\dimen379
+\aboverulesep=\dimen380
+\abovetopsep=\dimen381
+\cmidrulesep=\dimen382
+\cmidrulekern=\dimen383
+\defaultaddspace=\dimen384
+\@cmidla=\count351
+\@cmidlb=\count352
+\@aboverulesep=\dimen385
+\@belowrulesep=\dimen386
+\@thisruleclass=\count353
+\@lastruleclass=\count354
+\@thisrulewidth=\dimen387
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/gensymb/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
-) (c:/texlive/2024/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language89
+\langwohyphens=\language5
 LaTeX Info: Redefining \_ on input line 43.
-) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
- (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count365
-) (c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+\c@section@level=\count355
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen389
-\Hy@linkcounter=\count366
-\Hy@pagecounter=\count367
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+\@linkdim=\dimen388
+\Hy@linkcounter=\count356
+\Hy@pagecounter=\count357
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count368
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+\Hy@SavedSpaceFactor=\count358
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -1283,21 +1306,21 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count369
- (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
+\c@Hy@tempcnt=\count359
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen390
- (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+\XeTeXLinkMargin=\dimen389
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count370
-\Field@Width=\dimen391
-\Fld@charsize=\dimen392
+\Fld@menulength=\count360
+\Field@Width=\dimen390
+\Fld@charsize=\dimen391
 Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
@@ -1305,39 +1328,354 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
- (c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count371
-\c@Item=\count372
-\c@Hfootnote=\count373
+\Hy@abspage=\count361
+\c@Item=\count362
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Use of \x doesn't match its definition.
+\LT@array [#1]#2->\UseTaggingSocket 
+                                    {tbl/init}\tl_if_empty:eTF {\LTcaptype }...
+l.6930 }{}
+          
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6930 }{}
+          
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<argument> \@kernel@refstepcounter 
+                                   {\LTcaptype }\stepcounter {LT@tables}\tl_...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\LT@array ...H\LTcaptype }}}\tbl_gzero_row_count: 
+                                                  \UseTaggingSocket {tbl/lon...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\LT@array ...l_gzero_row_count: \UseTaggingSocket 
+                                                  {tbl/longtable/init}\if l#...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Illegal parameter number in definition of \@fortmp.
+<to be read again> 
+                   2
+l.6930 }{}
+          
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Illegal parameter number in definition of \@nextchar.
+<to be read again> 
+                   }
+l.6930 }{}
+          
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Package array Error:  Illegal pream-token (#): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6930 }{}
+          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\insert@column ...count@ \relax \UseTaggingSocket 
+                                                  {tbl/cell/end}
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Package array Error:  Illegal pream-token (2): `c' used.
+
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6930 }{}
+          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\@preamble ...ip \col@sep &\tbl_update_cell_data: 
+                                                  
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\insert@column ...count@ \relax \UseTaggingSocket 
+                                                  {tbl/cell/end}
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\LT@array ...\@mkpream {#2}\tbl_count_table_cols: 
+                                                  \xdef \LT@bchunk {\tbl_inb...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\LT@array ...def \LT@bchunk {\tbl_inbetween_rows: 
+                                                  \global \advance \c@LT@chu...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\LT@array ...skip \z@ \@arstrut \UseTaggingSocket 
+                                                  {tbl/row/begin}\tbl_init_c...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+\LT@array ...w/begin}\tbl_init_cell_data_for_row: 
+                                                  \@preamble \tabskip \LTrig...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<inserted text> \noalign {\__tbl_trace:n 
+                                         {--longtable--> chunk row: \the \LT...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6930 }{}
+          
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<inserted text> ...pace row: \the \g__tbl_row_int 
+                                                  \space column: \the \g__tb...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: You can't use `blank space  ' after \the.
+\space -> 
+          
+l.6930 }{}
+          
+I'm forgetting what you said and using zero instead.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<inserted text> ...e column: \the \g__tbl_col_int 
+                                                  }\tbl_if_row_was_started:T...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: You can't use `end-group character }' after \the.
+<inserted text> ... column: \the \g__tbl_col_int }
+                                                  \tbl_if_row_was_started:T ...
+l.6930 }{}
+          
+I'm forgetting what you said and using zero instead.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<inserted text> ...int }\tbl_if_row_was_started:T 
+                                                  {\UseTaggingSocket {tbl/ro...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<inserted text> ...s_started:T {\UseTaggingSocket 
+                                                  {tbl/row/end}\tbl_inbetwee...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<inserted text> ...l/row/end}\tbl_inbetween_rows: 
+                                                  }\int_compare:nNnT \LT@row...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<argument> \tbl_gincr_row_count: 
+                                 
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty:6930: Undefined control sequence.
+<argument> ...expandafter \x \y [{##1}]{##2}\@nil 
+                                                  \begingroup \def \x ##1\if...
+l.6930 }{}
+          
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\c@Hfootnote=\count363
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
- (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
-\Fld@listcount=\count374
-\c@bookmark@seq@number=\count375
- (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+\Fld@listcount=\count364
+\c@bookmark@seq@number=\count365
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip119
-) (c:/texlive/2024/texmf-dist/tex/latex/endnotes/endnotes.sty
+\Hy@SectionHShift=\skip118
+) (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/endnotes/endnotes.sty
 Package: endnotes 2020-01-02 endnotes package
-\c@endnote=\count376
-\endnotesep=\dimen393
+\c@endnote=\count366
+\endnotesep=\dimen392
 \@enotes=\write7
 )) (./customs.tex)
-\tikzscale@accuracy=\skip120
- (auxiliary/main.aux)
+\tikzscale@accuracy=\skip119
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count367
+\l__pdf_internal_box=\box114
+) (auxiliary/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
@@ -1360,23 +1698,10 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Info: Command `\dddot' is already robust on input line 28.
 LaTeX Info: Command `\ddddot' is already robust on input line 28.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count377
-\scratchdimen=\dimen394
-\scratchbox=\box116
-\nofMPsegments=\count378
-\nofMParguments=\count379
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count380
-\MPscratchDim=\dimen395
-\MPnumerator=\count381
-\makeMPintoPDFobject=\count382
-\everyMPtoPDFconversion=\toks58
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
@@ -1418,7 +1743,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-(c:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
@@ -1439,135 +1764,487 @@ Package hyperref Info: Link coloring OFF on input line 28.
 \openout8 = `main.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 32.
-<./figures/ECE-logo.png, id=43, 1436.7276pt x 1436.7276pt>
+
+
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:34: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \begin{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./figures/ECE-logo.png, id=7, 1436.7276pt x 1436.7276pt>
 File: ./figures/ECE-logo.png Graphic file (type png)
 <use ./figures/ECE-logo.png>
 Package pdftex.def Info: ./figures/ECE-logo.png  used on input line 35.
 (pdftex.def)             Requested size: 359.18102pt x 359.18102pt.
 
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:35: LaTeX Error: Something's wrong--perhaps a missing \item.
 
-[1
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...cs[scale=0.25]{./figures/ECE-logo.png} \\[
+                                                  24pt]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/ECE-logo.png>] (auxiliary/main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 6.
- (c:/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:35: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...ale=0.25]{./figures/ECE-logo.png} \\[24pt]
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:51: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.51 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+(auxiliary/main.toc)
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
 
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:59: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.59 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[0] (auxiliary/main.lof)
+(auxiliary/main.lof)
 \tf@lof=\write10
 \openout10 = `main.lof'.
 
 
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:62: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.62 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[1] (auxiliary/main.lot)
+(auxiliary/main.lot)
 \tf@lot=\write11
 \openout11 = `main.lot'.
 
 
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:67: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.67 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[2]
 Package hyperref Info: Option `pageanchor' set `true' on input line 68.
- (./00-abstractintro.tex
-<figures/stages.png, id=94, 701.62125pt x 484.81125pt>
+(./00-abstractintro.tex
+./00-abstractintro.tex:11: Undefined control sequence.
+<argument> \H@refstepcounter 
+                             {section}\bool_lazy_and:nnT {\l__hyp_target_cre...
+l.11 \section{Introduction}
+                           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+(c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 15.
+ (c:/Users/StentifordGeoffreyCC/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+./00-abstractintro.tex:15: Font U/rsfs/m/n/10=rsfs10 at 10.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.15 ...s.  Each microphone is given a channelL $X
+                                                  _1$, $X_2$, $X_3$, and $X_4$.
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+./00-abstractintro.tex:15: Font U/rsfs/m/n/7=rsfs7 at 7.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.15 ...s.  Each microphone is given a channelL $X
+                                                  _1$, $X_2$, $X_3$, and $X_4$.
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+./00-abstractintro.tex:15: Font U/rsfs/m/n/5=rsfs5 at 5.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.15 ...s.  Each microphone is given a channelL $X
+                                                  _1$, $X_2$, $X_3$, and $X_4$.
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+
+LaTeX Warning: Reference `fig:stages' on page 0 undefined on input line 17.
+
+<figures/stages.png, id=8, 701.62125pt x 484.81125pt>
 File: figures/stages.png Graphic file (type png)
 <use figures/stages.png>
 Package pdftex.def Info: figures/stages.png  used on input line 21.
 (pdftex.def)             Requested size: 352.31625pt x 243.44809pt.
+./00-abstractintro.tex:22: Undefined control sequence.
+\caption@refstepcounter@ ->\H@refstepcounter 
+                                             
+l.22     \caption{
+                  Signal Processing Stages}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 )
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:70: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.70 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[3 <./figures/stages.png>] (./01-block1.tex)
-
-[4] (./02-block2.tex)
-
-[5] (./03-block3.tex)
-
-[6] (./04-block4.tex
-<figures/upsample_freq_response.png, id=121, 385.44pt x 179.92218pt>
-File: figures/upsample_freq_response.png Graphic file (type png)
-<use figures/upsample_freq_response.png>
-Package pdftex.def Info: figures/upsample_freq_response.png  used on input line 37.
-(pdftex.def)             Requested size: 234.8775pt x 109.6398pt.
-
-
-[7 <./figures/upsample_freq_response.png>]
-<figures/linear_upsample_whole.png, id=130, 423.08063pt x 312.41719pt>
-File: figures/linear_upsample_whole.png Graphic file (type png)
-<use figures/linear_upsample_whole.png>
-Package pdftex.def Info: figures/linear_upsample_whole.png  used on input line 51.
-(pdftex.def)             Requested size: 234.8775pt x 173.44125pt.
-<figures/linear_upsample_zoom.png, id=132, 419.31656pt x 323.70938pt>
-File: figures/linear_upsample_zoom.png Graphic file (type png)
-<use figures/linear_upsample_zoom.png>
-Package pdftex.def Info: figures/linear_upsample_zoom.png  used on input line 60.
-(pdftex.def)             Requested size: 234.8775pt x 181.32047pt.
+(./03-block3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 26--2
+\OT1/cmr/m/n/10 re-sults, in its re-spec-tive sec-tion.  
+ []
 
 
-[8 <./figures/linear_upsample_whole.png> <./figures/linear_upsample_zoom.png>]
-<figures/upsample_time.png, id=141, 414.04688pt x 309.40594pt>
-File: figures/upsample_time.png Graphic file (type png)
-<use figures/upsample_time.png>
-Package pdftex.def Info: figures/upsample_time.png  used on input line 71.
-(pdftex.def)             Requested size: 234.8775pt x 175.52284pt.
-<figures/upsample_freq.png, id=142, 417.81094pt x 310.91156pt>
-File: figures/upsample_freq.png Graphic file (type png)
-<use figures/upsample_freq.png>
-Package pdftex.def Info: figures/upsample_freq.png  used on input line 78.
-(pdftex.def)             Requested size: 234.8775pt x 174.78767pt.
-<figures/upsample_time_zoom.png, id=145, 419.31656pt x 306.39468pt>
-File: figures/upsample_time_zoom.png Graphic file (type png)
-<use figures/upsample_time_zoom.png>
-Package pdftex.def Info: figures/upsample_time_zoom.png  used on input line 87.
-(pdftex.def)             Requested size: 234.8775pt x 171.62193pt.
+Underfull \hbox (badness 10000) in paragraph at lines 26--2
 
+ []
 
-[9 <./figures/upsample_time.png> <./figures/upsample_freq.png>]
-<figures/upsample_freq_zoom.png, id=152, 395.97937pt x 310.15875pt>
-File: figures/upsample_freq_zoom.png Graphic file (type png)
-<use figures/upsample_freq_zoom.png>
-Package pdftex.def Info: figures/upsample_freq_zoom.png  used on input line 94.
-(pdftex.def)             Requested size: 234.8775pt x 183.97646pt.
+./03-block3.tex:3: Undefined control sequence.
+<argument> \H@refstepcounter 
+                             {section}\bool_lazy_and:nnT {\l__hyp_target_cre...
+l.3 ...l, Bandwidth Limiting, and Bias Correction}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 )
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:72: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.72 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
 
-[10 <./figures/upsample_time_zoom.png> <./figures/upsample_freq_zoom.png>] (./05-block5.tex)
+(./01-block1.tex
+Overfull \hbox (4.27347pt too wide) in paragraph at lines 19--2
+[]\OT1/cmr/m/n/10 We de-cided to place this block first, as the noise-reduced sig-nal is much sim-pler to deal with when im-ple-ment-ing
+ []
 
-[11] (./06-conclusion.tex)
 
-[12] 
-enddocument/afterlastpage: lastpage setting LastPage.
-(auxiliary/main.aux)
- ***********
-LaTeX2e <2024-11-01>
-L3 programming layer <2020/03/25>
- ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 99D3905FD154043B2E023E41E4139D25;1425.
- ) 
-Here is how much of TeX's memory you used:
- 62580 strings out of 473362
- 1565730 string characters out of 5725044
- 2401397 words of memory out of 5000000
- 84636 multiletter control sequences out of 15000+600000
- 567614 words of font info for 70 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 104i,13n,110p,7210b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/mathabx-type1/matha10.pfb>
-Output written on auxiliary/main.pdf (14 pages, 1399133 bytes).
-PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+Underfull \hbox (badness 10000) in paragraph at lines 19--2
+\OT1/cmr/m/n/10 the cal-i-bra-tion stage than the raw data sig-nal.  
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--2
+
+ []
+
+./01-block1.tex:3: Undefined control sequence.
+<argument> \H@refstepcounter 
+                             {section}\bool_lazy_and:nnT {\l__hyp_target_cre...
+l.3 \section{Block 2: Calibration}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:74: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.74 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+(./02-block2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 14--2
+\OT1/cmr/m/n/10 ap-proach was fea-si-ble.  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--2
+
+ []
+
+./02-block2.tex:3: Undefined control sequence.
+<argument> \H@refstepcounter 
+                             {section}\bool_lazy_and:nnT {\l__hyp_target_cre...
+l.3 \section{Block 2: Time Gain Compensation}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+c:/Users/StentifordGeoffreyCC/Desktop/cpx3/report/main.tex:76: Misplaced \noalign.
+\newpage ->\noalign 
+                    {\break }
+l.76 \newpage
+             
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+(./04-block4.tex
+./04-block4.tex:3: Undefined control sequence.
+<argument> \H@refstepcounter 
+                             {section}\bool_lazy_and:nnT {\l__hyp_target_cre...
+l.3 \section{Block 4: Upsampling (2x)}
+                                      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:13: Undefined control sequence.
+<argument> \H@refstepcounter 
+                             {subsection}\bool_lazy_and:nnT {\l__hyp_target_...
+l.13 \subsection{Implementation}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `tab:upsample_filter' on page 0 undefined on input line 21.
+
+./04-block4.tex:25: Undefined control sequence.
+\@tabular ->\leavevmode \UseTaggingSocket 
+                                          {tbl/hmode/begin}\hbox \bgroup $\c...
+l.25     \begin{tabular}
+                        {c|cccc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\@@array ...idth \z@ }\tbl_save_outer_table_cols: 
+                                                  \begingroup \@mkpream {#2}...
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ...count@ \relax \UseTaggingSocket 
+                                                  {tbl/cell/end}
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\@preamble ...yrulewidth }&\tbl_update_cell_data: 
+                                                  
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ...count@ \relax \UseTaggingSocket 
+                                                  {tbl/cell/end}
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\@preamble ...ip \col@sep &\tbl_update_cell_data: 
+                                                  
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ...count@ \relax \UseTaggingSocket 
+                                                  {tbl/cell/end}
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\@preamble ...ip \col@sep &\tbl_update_cell_data: 
+                                                  
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ...count@ \relax \UseTaggingSocket 
+                                                  {tbl/cell/end}
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\@preamble ...ip \col@sep &\tbl_update_cell_data: 
+                                                  
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./04-block4.tex:25: Undefined control sequence.
+\insert@column ->\UseTaggingSocket 
+                                   {tbl/cell/begin}\@protected@firstofone {\...
+l.25     \begin{tabular}{c|cccc}
+                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll for
