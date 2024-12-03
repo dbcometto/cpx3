@@ -22,7 +22,5 @@ function [sc_image] = contrast(sc_image, width, length, bottom, top)
 %
   
 
-m = 1.0/(top - bottom);
-b = 0.0 - m*bottom;
-parfor 
-    
+high = max(max(sc_image));
+sc_image = contrastFix(sc_image, top, bottom, high);

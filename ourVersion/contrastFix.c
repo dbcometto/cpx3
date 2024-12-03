@@ -3,14 +3,14 @@
 
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 {
-    double top, bottom;
+    double top, bottom, max;
     double *inMatrix, *outMatrix;
     size_t ncols, nrows;
 
     /* check for proper number of arguments */
-    if (nrhs != 3)
+    if (nrhs != 4)
     {
-        mexErrMsgIdAndTxt("MyToolbox:contrastFix:nrhs", "Three inputs required.");
+        mexErrMsgIdAndTxt("MyToolbox:contrastFix:nrhs", "Four inputs required.");
     }
     else if (nlhs != 1)
     {
@@ -24,7 +24,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     }
 
     /* make sure the second and third input arguments are doubles */
-    if (!mxIsDouble(prhs[1]) ||  mxIsComplex(prhs[1]) || mxGetNumberOfElements(prhs[1]) != 1)
+    if (!mxIsDouble(prhs[1]) || mxIsComplex(prhs[1]) || mxGetNumberOfElements(prhs[1]) != 1)
     {
         mexErrMsgIdAndTxt("MyToolbox:contrastFix:notScalar", "Top must be a double scalar.");
     }
@@ -33,9 +33,10 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
         mexErrMsgIdAndTxt("MyToolbox:contrastFix:notScalar", "Top must be a double scalar.");
     }
 
-    /* get the value of the scalar input  */
+    /* get the value of the scalar inputs */
     top = mxGetScalar(prhs[1]);
     bottom = mxGetScalar(prhs[2]);
+    max = mxGetScalar(prhs[3]);
 
 /* create a pointer to the real data in the input matrix  */
 #if MX_HAS_INTERLEAVED_COMPLEX
@@ -48,8 +49,10 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     ncols = mxGetN(prhs[0]);
     nrows = mxGetM(prhs[0]);
 
-    double m = 1.0/(top - bottom);
-    double b = 0.0 - m*bottom;
+    top = top * max;
+    bottom = bottom * max;
+    double m = max / (top - bottom);
+    double b = -m * bottom;
 
     plhs[0] = plhs[0] = mxCreateDoubleMatrix((mwSize)nrows, (mwSize)ncols, mxREAL);
 
@@ -59,16 +62,19 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     outMatrix = mxGetPr(plhs[0]);
 #endif
 
-    for (unsigned short i = 0; i < ncols; i++) {
-        for (unsigned short j = 0; j < nrows; j++) {
-            unsigned int curr = i*nrows + j;
-            if (inMatrix[curr] > top) {
-                outMatrix[curr] = 1.0;
-            } else if (inMatrix[curr] < bottom) {
-                outMatrix[curr] = 0.0;
-            } else {
-                outMatrix[curr] = m*inMatrix[curr] + b;
-            }
+    for (unsigned short i = 0; i < ncols * nrows; i++)
+    {
+        if (inMatrix[i] > top)
+        {
+            outMatrix[i] = 1.0;
+        }
+        else if (inMatrix[i] < bottom)
+        {
+            outMatrix[i] = 0.0;
+        }
+        else
+        {
+            outMatrix[i] = m * inMatrix[i] + b;
         }
     }
 }
