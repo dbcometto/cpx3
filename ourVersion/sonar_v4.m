@@ -45,7 +45,7 @@ SF = zeros(4,1);
 
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
 % -- add your look-up tables here.  They don't cost you any time here
-
+denoisers = load("denoise_fils.mat","-mat");
 
 %time-gain computation 
 sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
@@ -157,7 +157,7 @@ while game_on > 0
    
     time1 = tic;
  
-    [data] = noise_remove_LPF(data); 
+    [data] = noise_remove_LPF(data, denoisers); 
 
     time2 = toc(time1);
     Stage3_noiseLPF_time = time2
@@ -493,6 +493,8 @@ while game_on > 0
    time1 = tic;
    
    [sc_image] = scan_conversion(Mag_image, NumBeams, FrameSize*upsample, min_range, max_range);
+
+   %save("sc_image.mat","sc_image")
 
    time2 = toc(time1);
    Stage7_scan_conversion_time = time2   

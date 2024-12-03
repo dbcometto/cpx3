@@ -1,4 +1,4 @@
-function [data] = noise_remove_LPF(data)
+function [data] = noise_remove_LPF(data, fils)
 % Filters the data to remove noise and bias
 %
 % by Geoffrey Stentiford
@@ -9,7 +9,7 @@ function [data] = noise_remove_LPF(data)
 %       data:           modified data
 %
 
-fils = load("denoise_fils.mat","-mat");
+%fils = load("denoise_fils.mat","-mat");
 
 data = data - mean(data);
 data = filter(fils.Num1, 1, data);
