@@ -44,8 +44,8 @@ persist_image = zeros(max_range,(2*max_range + 1));
 SF = zeros(4,1);
 
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
-% -- add your look-up tables here.  They don't cost you any time here
 denoisers = load("denoise_fils.mat","-mat");
+
 
 %time-gain computation 
 sampleIndex = [1:1:2000;1:1:2000;1:1:2000;1:1:2000]';
