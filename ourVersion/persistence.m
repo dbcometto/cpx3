@@ -1,4 +1,4 @@
-function [persist_image] = persistence(sc_image, persist_image, width, length, persist)
+function [persist_image] = persistence(sc_image, persist_image, persist)
 % Persistence (IIR Filter)
 %    A low pass filter over time can be done known as Persistence.
 %    Persistence is averaging the previous output image with the newly

@@ -543,7 +543,7 @@ while game_on > 0
    time1 = tic;
    
    % do "window-level"
-   [sc_image] = contrast(sc_image, 2*max_range + 1, max_range, bottom, top);
+   [sc_image] = contrast(sc_image, bottom, top);
 
    time2 = toc(time1);
    Stage9_contrast_time = time2 
@@ -602,7 +602,7 @@ while game_on > 0
        time1 = tic;
        
        %persistence filter
-       [persist_image] = persistence(sc_image, persist_image, 2*max_range + 1, max_range, persist);
+       [persist_image] = persistence(sc_image, persist_image, persist);
        
        time2 = toc(time1);
        Stage10_persist_time = time2 
