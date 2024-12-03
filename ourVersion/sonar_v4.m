@@ -1,4 +1,4 @@
-providedThings/cpx3_sonar_Matlab_Headers_v4/quad_demod_LPF.m providedThings/cpx3_sonar_Matlab_Headers_v4/quad_demod_mix.mfunction cpx3_sonar_v4
+function cpx3_sonar_v4
 % by george york
 % sends 10KHz pulses, received by 4 channel array, does sonar processing, and plots
 % in polar format
@@ -357,6 +357,9 @@ while game_on > 0
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
 
+   demod_I
+   demod_Q
+   
    time2 = toc(time1);
    Stage6_demod_time = time2
    total_time = total_time + Stage6_demod_time;

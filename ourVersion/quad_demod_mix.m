@@ -20,7 +20,9 @@ function [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize, frequen
 %       demod_Q:        quadrature component of the mixed beamformed data
 %
 
-for i = k:NumBeams*FramSize:
+for i = 1:NumBeams
+    
+end
     
 
 

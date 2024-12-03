@@ -378,7 +378,7 @@ while game_on > 0
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize*upsample, frequency, SampleRate*upsample );
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
-
+   
    time2 = toc(time1);
    Stage6_demod_time = time2
    total_time = total_time + Stage6_demod_time;
