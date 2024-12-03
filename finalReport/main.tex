@@ -1,0 +1,84 @@
+\documentclass{article}
+
+\newcommand\thisclass{CPX 3 Report} % set project/class name
+
+% packages and shortcuts
+\input{packages} % add packages here
+\input{customs}  % these are custom shortcuts
+
+
+% page options
+\pagestyle{fancy}
+\setlength\parindent{0pt}
+\addtolength{\textheight}{-18pt}
+\fancyhead{}
+\fancyfoot[L]{\thisclass}
+\fancyfoot[R]{\thepage}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}
+
+
+
+
+
+
+% DOCUMENT STARTS HERE
+
+\begin{document}
+	
+
+% Title Page
+\hypersetup{pageanchor=false} % so the title page and front matter don't try to act like page 1 of the document later...
+
+\begin{center}
+\includegraphics[scale=0.25]{./figures/ECE-logo.png} \\[24pt]
+\huge{\textbf{\thisclass}} \\[12pt]
+\Large{ECE 434: Digital Signal Processing} \\[4pt]
+\Large{\today} \\[4pt]
+
+\vfill
+
+\Large{C1C Victor Chen}
+
+\Large{C1C Ben Cometto}
+
+\Large{C1C Nick Csicsila}
+
+\Large{C1C Geoff Stentiford}
+\end{center} 
+
+\newpage
+
+
+% Table of Contentses
+\thispagestyle{empty}
+\setcounter{page}{0}
+\tableofcontents
+
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+% Content
+
+\newpage
+\hypersetup{pageanchor=true} % re-activate 
+\input{./00-abstractintro} 
+\newpage
+\input{./03-block3.tex} 
+\newpage
+\input{./01-block1.tex} 
+\newpage
+\input{./02-block2.tex} 
+\newpage
+\input{./04-block4.tex} 
+\newpage
+\input{./05-block5.tex}  
+\newpage
+\input{./06-conclusion} 
+
+
+\end{document}
