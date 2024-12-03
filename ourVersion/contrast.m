@@ -1,4 +1,4 @@
-function [sc_image] = contrast(sc_image, width, length, bottom, top)
+function [sc_image] = contrast(sc_image, bottom, top)
 % Constrast/Brightness
 %   This function warp's the dynamic range of the image intensity
 %   to emphasis features of interest and minimize noise.
@@ -8,7 +8,7 @@ function [sc_image] = contrast(sc_image, width, length, bottom, top)
 %          - histeq (in matlab)
 %  
 %
-% by Geoffrey Stentiford & Victor Chen
+% by Geoffrey Stentiford
 %
 %   INPUTS
 %       sc_image:     Echo Image after scan conversion
