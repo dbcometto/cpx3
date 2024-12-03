@@ -1,4 +1,4 @@
-function cpx3_sonar_v4
+providedThings/cpx3_sonar_Matlab_Headers_v4/quad_demod_LPF.m providedThings/cpx3_sonar_Matlab_Headers_v4/quad_demod_mix.mfunction cpx3_sonar_v4
 % by george york
 % sends 10KHz pulses, received by 4 channel array, does sonar processing, and plots
 % in polar format
