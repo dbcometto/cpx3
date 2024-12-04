@@ -20,11 +20,11 @@ function [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize, frequen
 %       demod_Q:        quadrature component of the mixed beamformed data
 %
 
-for i = 1:NumBeams
-    
+factor = pi*.1;
+dims = size(beams);
+demod_I = zeros(dims(1), dims(2));
+demod_Q = zeros(dims(1), dims(2));
+for i = 1:dims(2)
+    demod_I(:,i) = beams(:,i) * cos(factor*i);
+    demod_Q(:,i) = beams(:,i) * sin(factor*i);
 end
-    
-
-
-
-

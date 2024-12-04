@@ -354,11 +354,10 @@ while game_on > 0
    time1 = tic;
 
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize*upsample, frequency, SampleRate*upsample );
+
+   %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
-
-   demod_I
-   demod_Q
    
    time2 = toc(time1);
    Stage6_demod_time = time2
@@ -397,7 +396,7 @@ while game_on > 0
        figure(16);
        colormap(gray);
        imagesc(transpose(demod_I));
-       title('Image of component of Beamformed Data After Mixing: ');
+       title('Image of I component of Beamformed Data After Mixing: ');
        xlabel('Beams (each corresponds to a different angle)');
        ylabel('Distance (really sample number)');
    end
