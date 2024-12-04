@@ -494,7 +494,8 @@ while game_on > 0
    
    [sc_image] = scan_conversion(Mag_image, NumBeams, FrameSize*upsample, min_range, max_range);
 
-   %save("sc_image.mat","sc_image")
+   save("sc_image.mat","sc_image")
+   save("Mag_image.mat","Mag_image")
 
    time2 = toc(time1);
    Stage7_scan_conversion_time = time2   
