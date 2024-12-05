@@ -23,8 +23,8 @@ dims = size(beams);
 demod_I = zeros(dims(1), dims(2));
 demod_Q = zeros(dims(1), dims(2));
 for i = 1:dims(2)
-    demod_I(:,i) = beams(:,i) .* cos_table(i);
-    demod_Q(:,i) = beams(:,i) .* sin_table(i);
+    demod_I(:,i) = beams(:,i) * cos_table(i);
+    demod_Q(:,i) = beams(:,i) * sin_table(i);
     %demod_I(:,i) = beams(:,i) * cos(factor*i);
     %demod_Q(:,i) = beams(:,i) * sin(factor*i);
 end

@@ -53,7 +53,6 @@ for i = 1:table_len
     cos_table(i) = cos(i*QuadIncr);
     sin_table(i) = sin(i*QuadIncr);
 end
-save("tables.mat", "cos_table", "sin_table");
 
 
 %time-gain computation 
