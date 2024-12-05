@@ -1,4 +1,4 @@
-function [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize, frequency, SampleRate)
+function [demod_I, demod_Q] = quad_demod_mix(beams, frequency, SampleRate)
 % Demodulate the echo image by finding the envelope of the carrier pulse
 % First, multiply by the carrier (cos + jsin)
 % This moves the echo signal to DC and makes another copy at twice the
@@ -7,7 +7,7 @@ function [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize, frequen
 % The cos and sin table are assumed precomputed to speed up the computation
 %
 
-% by Victor Chen and Geoffrey Stentiford
+% by Geoffrey Stentiford
 %
 %   INPUTS
 %       beams:          beamformed data
@@ -20,7 +20,7 @@ function [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize, frequen
 %       demod_Q:        quadrature component of the mixed beamformed data
 %
 
-factor = pi*.1;
+factor = pi*2*(frequency/SampleRate);
 dims = size(beams);
 demod_I = zeros(dims(1), dims(2));
 demod_Q = zeros(dims(1), dims(2));

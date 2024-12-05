@@ -353,7 +353,7 @@ while game_on > 0
    
    time1 = tic;
 
-   [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, FrameSize*upsample, frequency, SampleRate*upsample );
+   [demod_I, demod_Q] = quad_demod_mix(beams, frequency, SampleRate*upsample);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);

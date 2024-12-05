@@ -7,31 +7,31 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     double *inMatrix, *outMatrix;
     size_t ncols, nrows;
 
-    /* check for proper number of arguments */
-    if (nrhs != 4)
-    {
-        mexErrMsgIdAndTxt("MyToolbox:contrastFix:nrhs", "Four inputs required.");
-    }
-    else if (nlhs != 1)
-    {
-        mexErrMsgIdAndTxt("MyToolbox:contrastFix:nlhs", "One output required.");
-    }
+    // /* check for proper number of arguments */
+    // if (nrhs != 4)
+    // {
+    //     mexErrMsgIdAndTxt("MyToolbox:contrastFix:nrhs", "Four inputs required.");
+    // }
+    // else if (nlhs != 1)
+    // {
+    //     mexErrMsgIdAndTxt("MyToolbox:contrastFix:nlhs", "One output required.");
+    // }
 
-    /* make sure the first input argument is double */
-    if (!mxIsDouble(prhs[0]) || mxIsComplex(prhs[0]))
-    {
-        mexErrMsgIdAndTxt("MyToolbox:contrastFix:notDouble", "Input matrix must be type double.");
-    }
+    // /* make sure the first input argument is double */
+    // if (!mxIsDouble(prhs[0]) || mxIsComplex(prhs[0]))
+    // {
+    //     mexErrMsgIdAndTxt("MyToolbox:contrastFix:notDouble", "Input matrix must be type double.");
+    // }
 
-    /* make sure the second and third input arguments are doubles */
-    if (!mxIsDouble(prhs[1]) || mxIsComplex(prhs[1]) || mxGetNumberOfElements(prhs[1]) != 1)
-    {
-        mexErrMsgIdAndTxt("MyToolbox:contrastFix:notScalar", "Top must be a double scalar.");
-    }
-    else if (!mxIsDouble(prhs[2]) || mxIsComplex(prhs[2]) || mxGetNumberOfElements(prhs[2]) != 1)
-    {
-        mexErrMsgIdAndTxt("MyToolbox:contrastFix:notScalar", "Top must be a double scalar.");
-    }
+    // /* make sure the second and third input arguments are doubles */
+    // if (!mxIsDouble(prhs[1]) || mxIsComplex(prhs[1]) || mxGetNumberOfElements(prhs[1]) != 1)
+    // {
+    //     mexErrMsgIdAndTxt("MyToolbox:contrastFix:notScalar", "Top must be a double scalar.");
+    // }
+    // else if (!mxIsDouble(prhs[2]) || mxIsComplex(prhs[2]) || mxGetNumberOfElements(prhs[2]) != 1)
+    // {
+    //     mexErrMsgIdAndTxt("MyToolbox:contrastFix:notScalar", "Top must be a double scalar.");
+    // }
 
     /* get the value of the scalar inputs */
     top = mxGetScalar(prhs[1]);
