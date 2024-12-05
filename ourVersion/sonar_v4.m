@@ -45,6 +45,15 @@ SF = zeros(4,1);
 
 % PRECOMPUTE LOOK-UP TABLES TO SPEED UP FUNCTIONS
 denoisers = load("denoise_fils.mat","-mat");
+QuadIncr = pi*2*(frequency/(SampleRate*upsample));
+table_len = FrameSize*upsample;
+cos_table = zeros(table_len, 1);
+sin_table = zeros(table_len, 1);
+for i = 1:table_len
+    cos_table(i) = cos(i*QuadIncr);
+    sin_table(i) = sin(i*QuadIncr);
+end
+save("tables.mat", "cos_table", "sin_table");
 
 
 %time-gain computation 
@@ -353,7 +362,7 @@ while game_on > 0
    
    time1 = tic;
 
-   [demod_I, demod_Q] = quad_demod_mix(beams, frequency, SampleRate*upsample);
+   [demod_I, demod_Q] = quad_demod_mix(beams, cos_table, sin_table);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);
