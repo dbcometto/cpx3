@@ -1,5 +1,5 @@
 function cpx3_sonar_v4
-% by george york
+% by the 3 Engineers Plus Ben team
 % sends 10KHz pulses, received by 4 channel array, does sonar processing, and plots
 % in polar format
 % Also can work on canned test data
@@ -29,10 +29,16 @@ pulse_length = cycles*samples_per_cycle; % pulse length in number of samples
 top    = 0.9;     % top threshold for contrast enhancement (window/level) (must be between 0 and 1) 
 bottom = 0.6;     % bottom thrseshold for contrast enhancement (window/level) (must be between 0 and 1)
 colormap(gray);   % grayscale images, not color
+image_rows = 100;
+image_col = 201;
 
-% CREATE DATA ARRAYS NEEDED FOR FUNCTIONS
 % NumBeams = 21; 
 NumBeams = (samples_per_cycle*upsample) + 1;  %should be 21 for default case
+beamShift = round(NumBeams/2); % should be 11 for default case
+USampleRate = 2*SampleRate;
+
+% CREATE DATA ARRAYS NEEDED FOR FUNCTIONS
+[ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, feet_per_pixel_row, feet_per_pixel_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
 
 
 data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector for upsampling (designed for upsample = 2)
@@ -486,19 +492,19 @@ while game_on > 0
    %   This can be greatly speeded up by precomputing lookup tables
    
    % scale pixel magnitude to match my scan conversion thresholds
-   the_max = max(max(Mag_image));
-   Mag_image = Mag_image ./ the_max;
-   Mag_image = Mag_image .* 36;
-   
+   % the_max = max(max(Mag_image));
+   % Mag_image = Mag_image ./ the_max;
+   % Mag_image = Mag_image .* 36;
+
    time1 = tic;
-   [sc_image] = scan_conversion(Mag_image, NumBeams, FrameSize*upsample, min_range, max_range);
-
-   save("sc_image.mat","sc_image")
-   save("Mag_image.mat","Mag_image")
-
+   [sc_image] = scan_conversion(Mag_image, ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA);
    time2 = toc(time1);
+    sc_image(1,1:100)
    Stage7_scan_conversion_time = time2   
    total_time = total_time + Stage7_scan_conversion_time;
+
+   % save("sc_image.mat","sc_image")
+   % save("Mag_image.mat","Mag_image")
   
     % Plot scan converted echo image
     if (show_images == 1.0)
