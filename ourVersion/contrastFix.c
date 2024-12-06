@@ -1,3 +1,6 @@
+// Install MinGW-w64, then use configuremingw from MATLAB
+// Compile with: mex CFLAGS="-Ofast -flto=auto -mfpmath=sse" contrastFix.c
+
 #include "mex.h"
 #include "matrix.h"
 
