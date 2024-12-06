@@ -47,8 +47,8 @@ SF = zeros(4,1);
 denoisers = load("denoise_fils.mat","-mat");
 QuadIncr = pi*2*(frequency/(SampleRate*upsample));
 table_len = FrameSize*upsample;
-cos_table = zeros(table_len, 1);
-sin_table = zeros(table_len, 1);
+cos_table = zeros(1, table_len);
+sin_table = zeros(1, table_len);
 for i = 1:table_len
     cos_table(i) = cos(i*QuadIncr);
     sin_table(i) = sin(i*QuadIncr);
@@ -361,7 +361,7 @@ while game_on > 0
    
    time1 = tic;
 
-   [demod_I, demod_Q] = quad_demod_mix(beams, cos_table, sin_table);
+   [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);

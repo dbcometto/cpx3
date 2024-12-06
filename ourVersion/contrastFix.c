@@ -3,8 +3,8 @@
 
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 {
-    double top, bottom, max;
-    double *inMatrix, *outMatrix;
+    register double top, bottom, max;
+    static double *inMatrix, *outMatrix;
     size_t ncols, nrows;
 
     // /* check for proper number of arguments */
@@ -51,8 +51,8 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 
     top = top * max;
     bottom = bottom * max;
-    double m = max / (top - bottom);
-    double b = -m * bottom;
+    register double m = max / (top - bottom);
+    register double b = -m * bottom;
 
     plhs[0] = plhs[0] = mxCreateDoubleMatrix((mwSize)nrows, (mwSize)ncols, mxREAL);
 
@@ -66,7 +66,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
     {
         if (inMatrix[i] > top)
         {
-            outMatrix[i] = 1.0;
+            outMatrix[i] = max;
         }
         else if (inMatrix[i] < bottom)
         {
