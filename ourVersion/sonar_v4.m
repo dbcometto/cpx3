@@ -491,7 +491,6 @@ while game_on > 0
    Mag_image = Mag_image .* 36;
    
    time1 = tic;
-   
    [sc_image] = scan_conversion(Mag_image, NumBeams, FrameSize*upsample, min_range, max_range);
 
    save("sc_image.mat","sc_image")
