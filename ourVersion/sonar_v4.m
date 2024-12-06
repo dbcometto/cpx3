@@ -9,7 +9,7 @@ function cpx3_sonar_v4
 format LONG        % increases the percision of numbers printed on the command line
 continuous = 0.0;  % 0 means only do one image; >0 means continuously create sonar images
 live = 0.0;        % 0 means artficial data; >0 means live data from A/D board
-show_images = 1.0; % 0 means do not show intermediate stages images; 1 means show all images
+show_images = 0; % 0 means do not show intermediate stages images; 1 means show all images
 persist = 0.75;     % ranges from 0.0 for no persistence to 1.0 for maximum persistence
 
 c = 1136;           %speed of sound in air in ft/sec
@@ -360,13 +360,11 @@ while game_on > 0
    %           Find magnitude of I + jQ
    
    time1 = tic;
-   
-   filter_coef = evalin('base', 'Equiripple');
-   
+
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
-   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
+   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
    
    time2 = toc(time1);
@@ -615,7 +613,7 @@ while game_on > 0
        
        %persistence filter
        [persist_image] = persistence(sc_image, persist_image, persist);
-       
+
        time2 = toc(time1);
        Stage10_persist_time = time2 
        total_time = total_time + Stage10_persist_time;
@@ -633,7 +631,29 @@ while game_on > 0
    end
    
    % STAGE 11: Tracking and/or Velocity Estimation
-   %    
+   % 
+   % 2-d correlates the template image
+   % the template image is a block 2x2 1's to represent the most filled in
+   % part of the image
+   %
+    template = [1 1;
+                1 1];
+    
+    %returns the value to plot for tracking
+    [track_row,track_col] = tracking(persist_image, template);
+   
+    %overlays onto figure(27)
+    hold on;
+    % x over target
+    plot(track_col, track_row, 'x', 'MarkerSize',20, 'LineWidth', 2, 'Color', 'red')
+    % circle over target
+%     plot(track_col, track_row, 'o', 'MarkerSize',50, 'LineWidth', 2, 'Color', 'red')
+    hold off;
+   
+    
+
+
+
    %    Various methods?
    %    - Sliding FFT (maybe FFT over 8 frames)for doppler
    %           doppler frequency shift porportional to velocity.
