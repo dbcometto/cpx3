@@ -361,13 +361,12 @@ while game_on > 0
    
    time1 = tic;
    
-   % These are the filter coefficients for the LPF for Demod
-   filter_coef = [0.133181166657473,0.146816485548849,0.146816485548849,0.133181166657473];
-
+   filter_coef = evalin('base', 'Equiripple');
+   
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
-   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, FrameSize*upsample, WindowLength, filter_coef);
+   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
    
    time2 = toc(time1);
