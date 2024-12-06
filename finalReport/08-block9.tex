@@ -1,0 +1,17 @@
+% !TEX root =./main.tex
+
+\section{Block 9: Persistence - Stentiford}
+
+The persistence stage consists of an infinite impulse response filter 
+implemented very simply by taking weighted averages of the current 
+image and the previous image. The resulting image is then saved to be 
+used as the previous image in the next iteration. The relative weights 
+of the current and previous image determine how much previous images 
+stick around. A higher persistence, meaning more weight is given to the 
+previous image, results in better temporal noise filtering but blurs 
+moving objects, while the lower persistence more clearly displays moving 
+objects and the expense of more noise grain in the image.
+
+\begin{align*}
+    I_{t = n} = (1 - p)I_{new} + p*I_{t = n - 1}
+\end{align*}

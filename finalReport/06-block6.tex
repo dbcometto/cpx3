@@ -1,0 +1,23 @@
+% !TEX root =./main.tex
+
+\section{Block 6: Quadrature Demodulation - Chen & Stentiford}
+
+The quadrature demodulator is used to detect the pulse envelopes. It is a type of 
+amplitude modulation (AM) decoder which is able to function without knowing the exact 
+phase of the signal's carrier wave. It consists of three stages: mixing, filtering, 
+and magnitude calculation.
+
+The mixing stage of a normal (synchronous) demodulator multiplies the received signal 
+by the original carrier wave, matching the frequency and phase. Because we do not know 
+the phase in this case, we instead split the incoming signal, multipling each copy by 
+carrier waves 180° apart. Or, in mathematical terms:
+
+\begin{align*}
+    y[n] = x[n]*(\cos(2 \pi f n)+j \cos(2 \pi f n+\pi)) = x[n]*(\cos(2 \pi f n)+j \sin(2 \pi f n))
+\end{align*}
+
+To mitigate the relative slowness of trigonometric calculations, we pre-computed a pair of 
+tables for cosine and sine which could be used in the actual block instead of calls to 
+MATLAB's cosine and sine functions. The tables additionally already account for the sampling 
+rate and carrier frequency in order to minimize multiplication operations inside the time-
+sensitive block.
