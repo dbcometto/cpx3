@@ -41,10 +41,16 @@ USampleRate = 2*SampleRate;
 [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, pixel_per_foot_row, pixels_per_foot_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
 track_arrays = [];
 
+[ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, feet_per_pixel_row, feet_per_pixel_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
+
+% PREALLOCATED ARRAYS
 data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector for upsampling (designed for upsample = 2)
 beams = zeros(NumBeams, N*upsample);
-demod_I = zeros(NumBeams, N*upsample+10);
-demod_Q = zeros(NumBeams, N*upsample+10);
+demod_I = zeros(NumBeams, N*upsample);  % Preallocate for Demod Mix
+demod_Q = zeros(NumBeams, N*upsample);
+demod_I_LPF = zeros(NumBeams, N*upsample);  % Preallocate for Demod LPF
+demod_Q_LPF = zeros(NumBeams, N*upsample);  % Preallocate for Demod LPF
+size(demod_I)
 Mag_image = zeros(N*upsample, NumBeams);
 persist_image = zeros(max_range,(2*max_range + 1));
 SF = zeros(4,1);
@@ -365,15 +371,28 @@ while game_on > 0
    % STAGE 6c: Find magnitude (echo image) from imaginary
    %           Find magnitude of I + jQ
    
+   % TEST DATA - UNCOMMENT TO USE
+   % Using a sinwave for all channels, we can test the beamform on various
+   % frequencies to see waves in our final beamform image.
+   %x = 2;    % adjust x for different frequencies
+   %t = 1:4000;
+   
+   %size(beams)
+   %NumBeams
+   %channel = sin(t/x);
+   %beams = [channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel'];
+   %size(beams.')
+   
+   
    time1 = tic;
 
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
-   
-   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
+
+   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef, demod_I_LPF, demod_Q_LPF);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF);
-   
+
    time2 = toc(time1);
    Stage6_demod_time = time2
    total_time = total_time + Stage6_demod_time;
@@ -644,6 +663,7 @@ while game_on > 0
    %
 
    % SINGLE object tracking
+   
         template = ones(4,4);
         
         %returns the value to plot for tracking

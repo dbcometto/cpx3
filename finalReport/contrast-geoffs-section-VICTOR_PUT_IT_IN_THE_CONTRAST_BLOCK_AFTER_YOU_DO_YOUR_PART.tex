@@ -1,0 +1,18 @@
+The contrast block is difficult to optimize because the necessity of if-else statements precludes 
+vectorization. To make the costly operation run as quickly as possible, we took the route of 
+writing a native library for MATLAB in C (see contrastFix.c) to perform the operation. Not only 
+are for loops written in C more performant compared to their MATLAB counterparts, C also allows 
+for lower-level manipulation of data structures. In particular, 2D matrices in MATLAB require 
+two index values (row and column) to access, meaning to iterate through each member of the matrix 
+requires nested for loops, with the outer loop iterating through each row and the inner loop 
+iterating through each member of each row. Internally, MATLAB stores all matrices as normal, 1D 
+arrays (along with some metadata). As such, using C, we can iterate through each member of the matrix 
+by simply looping through a normal array of numbers, meaning we only have to use one loop instead 
+of a nested pair. Furthermore, C also allows specifying that certain variables should be stored in 
+registers instead of memory, allowing for more efficient access of variables oft-needed for computation. 
+Additionally, at the compile stage, some optimization parameters were passed to the compiler so that 
+the resulting library was built with compiler code optimization, link-time optimization (where 
+unnecessary function calls are bypassed), and forced usage of modern SSE (Streaming Single-Input-
+Multiple-Data Extensions) instructions, which on current x86 CPUs, are more efficient that the 
+standard x87 Floating Point instructions. Together, these elements ensure that the contrast stage 
+ran as efficiently as possible.

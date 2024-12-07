@@ -1,4 +1,4 @@
-function [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef)
+function [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef, demod_I_LPF, demod_Q_LPF)
 %  LPF to remove harmonic at twice f, keeping DC component
 %  Convolves data with Filter_coef of length WindowLength
 %
@@ -16,10 +16,6 @@ function [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams,
 %       demod_I:        Inphase component after LPF
 %       demod_Q:        quadrature component after LPF
 %
-
-% Precompute the output arrays
-demod_I_LPF = zeros(size(demod_I));
-demod_Q_LPF = zeros(size(demod_Q));
 
 % Loop through each signal
 for i = 1:NumBeams
