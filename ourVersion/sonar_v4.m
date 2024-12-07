@@ -7,10 +7,11 @@ function cpx3_sonar_v4
 
 % Default Parameters
 format LONG        % increases the percision of numbers printed on the command line
-continuous = 1.0;  % 0 means only do one image; >0 means continuously create sonar images
+continuous = 0.0;  % 0 means only do one image; >0 means continuously create sonar images
 live = 0.0;        % 0 means artficial data; >0 means live data from A/D board
 show_images = 0; % 0 means do not show intermediate stages images; 1 means show all images
 persist = 0.75;     % ranges from 0.0 for no persistence to 1.0 for maximum persistence
+resetScanComputations = 0; % 0 means use saved precomputations, 1 means recreate computations
 
 c = 1136;           %speed of sound in air in ft/sec
 SampleRate = 100000;
@@ -32,16 +33,23 @@ colormap(gray);   % grayscale images, not color
 image_rows = 100;
 image_col = 201;
 
+
+
 % NumBeams = 21; 
 NumBeams = (samples_per_cycle*upsample) + 1;  %should be 21 for default case
 beamShift = round(NumBeams/2); % should be 11 for default case
 USampleRate = 2*SampleRate;
 
 % CREATE DATA ARRAYS NEEDED FOR FUNCTIONS
-[ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, pixel_per_foot_row, pixels_per_foot_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
-track_arrays = [];
 
-[ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, feet_per_pixel_row, feet_per_pixel_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
+if resetScanComputations
+    [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, pixel_per_foot_row, pixels_per_foot_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
+    save("scanPrecomputationValues.mat","ind_bkn", "ind_bk1n", "ind_bkn1", "ind_bk1n1", "BMAM", "BMA", "BAM", "BA", "pixel_per_foot_row", "pixels_per_foot_col")
+else
+    load("scanPrecomputationValues.mat","ind_bkn", "ind_bk1n", "ind_bkn1", "ind_bk1n1", "BMAM", "BMA", "BAM", "BA", "pixel_per_foot_row", "pixels_per_foot_col","-mat")
+end
+
+track_arrays = [];
 
 % PREALLOCATED ARRAYS
 data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector for upsampling (designed for upsample = 2)
