@@ -1,14 +1,18 @@
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
-\contentsline {section}{\numberline {2}Block 1: Noise Removal, Bandwidth Limiting, and Bias Correction - Stentiford}{5}{section.2}%
-\contentsline {section}{\numberline {3}Block 2: Calibration - Stentiford}{7}{section.3}%
-\contentsline {section}{\numberline {4}Block 2 : Time Gain Compensation - Csicsila}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Theory}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Analysis}{9}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Performance}{10}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Block 4: Upsampling (2x) - Cometto}{12}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Implementation}{12}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Analysis}{13}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Block 5: Beamforming - Chen}{16}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Implementation}{16}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Analysis}{17}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Conclusion}{19}{section.7}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Block 1: Noise Removal, Bandwidth Limiting, and Bias Correction - Stentiford}{6}{section.2}%
+\contentsline {section}{\numberline {3}Block 2: Calibration - Stentiford}{8}{section.3}%
+\contentsline {section}{\numberline {4}Block 2 : Time Gain Compensation - Csicsila}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Theory}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analysis}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Performance}{11}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Block 4: Upsampling (2x) - Cometto}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Implementation}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Analysis}{14}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Block 5: Beamforming - Chen}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Implementation}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis}{18}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Block 7: Scan Conversion - Cometto}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Background}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Implementation}{20}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Analysis}{21}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Conclusion}{25}{section.8}%
