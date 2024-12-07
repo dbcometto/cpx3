@@ -376,13 +376,13 @@ while game_on > 0
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    
-<<<<<<< HEAD
-   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef)
+
+   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
-=======
+
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF);
->>>>>>> 14187c5a4ba9515495ca9c769dbb67d989c2ca7f
+
    
    time2 = toc(time1);
    Stage6_demod_time = time2
