@@ -1,4 +1,4 @@
-function [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize)
+function [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF)
 %  Find magnitude (echo image) from imaginary
 %           Find magnitude of I + jQ
 %  
@@ -14,8 +14,4 @@ function [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize)
 %       Mag_image:      Echo image after magnitude
 %
 
-
-        
-
-
-
+Mag_image = sqrt(demod_I_LPF.^2 + demod_Q_LPF.^2);

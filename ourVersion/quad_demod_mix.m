@@ -19,6 +19,5 @@ function [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_tab
 %       demod_Q:        quadrature component of the mixed beamformed data
 %
 
-dims = size(beams);
 demod_I = beams .* cos_table(ones(NumBeams, 1), :);
 demod_Q = beams .* sin_table(ones(NumBeams, 1), :);
