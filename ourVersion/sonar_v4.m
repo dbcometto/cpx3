@@ -40,13 +40,13 @@ USampleRate = 2*SampleRate;
 % CREATE DATA ARRAYS NEEDED FOR FUNCTIONS
 [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, feet_per_pixel_row, feet_per_pixel_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
 
-
+% PREALLOCATED ARRAYS
 data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector for upsampling (designed for upsample = 2)
 beams = zeros(NumBeams, N*upsample);
-demod_I = zeros(NumBeams, N*upsample+10);
-demod_Q = zeros(NumBeams, N*upsample+10);
-demod_I_LPF = zeros(21, 4000);  % Preallocate for Demod LPF
-demod_Q_LPF = zeros(21, 4000);  % Preallocate for Demod LPF
+demod_I = zeros(NumBeams, N*upsample);  % Preallocate for Demod Mix
+demod_Q = zeros(NumBeams, N*upsample);
+demod_I_LPF = zeros(NumBeams, N*upsample);  % Preallocate for Demod LPF
+demod_Q_LPF = zeros(NumBeams, N*upsample);  % Preallocate for Demod LPF
 size(demod_I)
 Mag_image = zeros(N*upsample, NumBeams);
 persist_image = zeros(max_range,(2*max_range + 1));
@@ -368,8 +368,6 @@ while game_on > 0
    % STAGE 6c: Find magnitude (echo image) from imaginary
    %           Find magnitude of I + jQ
    
-
-   
    time1 = tic;
 
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
@@ -379,7 +377,6 @@ while game_on > 0
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF);
 
-   
    time2 = toc(time1);
    Stage6_demod_time = time2
    total_time = total_time + Stage6_demod_time;
@@ -516,8 +513,8 @@ while game_on > 0
    time1 = tic;
    [sc_image] = scan_conversion(Mag_image, ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA);
    time2 = toc(time1);
-    sc_image(1,1:100)
-   Stage7_scan_conversion_time = time2   
+    sc_image(1,1:100);
+   Stage7_scan_conversion_time = time2
    total_time = total_time + Stage7_scan_conversion_time;
 
    % save("sc_image.mat","sc_image")
