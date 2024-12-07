@@ -67,11 +67,11 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])
 
     for (unsigned short i = 0; i < ncols * nrows; i++)
     {
-        if (inMatrix[i] > top)
+        if (inMatrix[i] >= top)
         {
             outMatrix[i] = max;
         }
-        else if (inMatrix[i] < bottom)
+        else if (inMatrix[i] <= bottom)
         {
             outMatrix[i] = 0.0;
         }
