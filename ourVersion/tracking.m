@@ -11,8 +11,8 @@ function [row, col] = tracking(data, template)
 %       row:           row of max value
 %       col:           col of max value
    
-c = xcorr2(data, template);
 
+c = xcorr2(data, template);
 
 % Find the maximum value and its linear index
 [maxValue, linearIndex] = max(c(:));
