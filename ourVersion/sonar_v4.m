@@ -38,6 +38,9 @@ beamShift = round(NumBeams/2); % should be 11 for default case
 USampleRate = 2*SampleRate;
 
 % CREATE DATA ARRAYS NEEDED FOR FUNCTIONS
+[ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, pixel_per_foot_row, pixels_per_foot_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
+track_arrays = [];
+
 [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, feet_per_pixel_row, feet_per_pixel_col] = scan_conversion_precompute(frequency, USampleRate, c, NUpsampled, NumBeams, beamShift, image_rows, image_col);
 
 % PREALLOCATED ARRAYS
@@ -526,8 +529,7 @@ while game_on > 0
    time1 = tic;
    [sc_image] = scan_conversion(Mag_image, ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA);
    time2 = toc(time1);
-    sc_image(1,1:100);
-   Stage7_scan_conversion_time = time2
+   Stage7_scan_conversion_time = time2   
    total_time = total_time + Stage7_scan_conversion_time;
 
    % save("sc_image.mat","sc_image")
@@ -675,19 +677,18 @@ while game_on > 0
 
         
     % Calculate Velocity
-        if iii ~= 120   % for test_data3
+       
+        
+        if iii == 5
             track_arrays = [track_arrays; [track_row,track_col]];
-        else
-            velocity_array = [];
-            for i = 1:size(track_arrays, 1) - 1
-                velocity_array = [velocity_array, calc_velocity([track_array(i, 1),track_array(i,2)], [track_array(i+1, 1),track_array(i+1,2)], 4.4, 4.4, Fs_out)];
-            end
-            avg_velocity = mean(velocity_array)
+        elseif iii == 50
+            track_arrays = [track_arrays; [track_row,track_col]];
+            velocity = calc_velocity(track_arrays(1, 1),track_arrays(1,2), track_arrays(2, 1),track_arrays(2,2), 2*pixel_per_foot_row, 2*pixels_per_foot_col, USampleRate, 45);
         end
-   
+
        
 
-    %TWO object tracking
+    %TWO object tracking (does not work with velocity)
 %         track_raw_data = persist_image;
 %     
 %         template = ones(4,4);
@@ -733,7 +734,7 @@ while game_on > 0
    
    
    total_time
-   iii = iii + 1;
+   iii = iii + 1
    if (iii == 2)
        stage1_time = Stage1a_cal_start_time + Stage1b_cal_array_time;
        stage2_time = Stage2_TGC_time;
@@ -778,8 +779,7 @@ Stage7_average = mean(stage7_time)
 Stage9_average = mean(stage9_time)
 Stage10_average = mean(stage10_time)
 
-
-
+velocity
 
 
 
