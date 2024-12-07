@@ -21,17 +21,20 @@
 \contentsline {figure}{\numberline {21}{\ignorespaces Output for Testing with sin(t/40) wave}}{19}{figure.caption.27}%
 \contentsline {figure}{\numberline {22}{\ignorespaces Beamform Output from Data}}{19}{figure.caption.28}%
 \contentsline {figure}{\numberline {23}{\ignorespaces Zoomed In Beamform Output}}{20}{figure.caption.29}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Precomputation Plots by Image Pixel}}{25}{figure.caption.31}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Beam Data, Scan Test 1}}{26}{figure.caption.32}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Converted Image, Scan Test 1}}{26}{figure.caption.33}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Beam Data, Scan Test 2}}{27}{figure.caption.34}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Converted Image, Scan Test 2}}{27}{figure.caption.35}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Beam Data, Scan Test 3}}{28}{figure.caption.36}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Converted Image, Scan Test 3}}{28}{figure.caption.37}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Converted Image, Real Test Data}}{29}{figure.caption.38}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Final Echo Image with Tracking}}{32}{figure.caption.40}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Final Correlation image with Tracking}}{33}{figure.caption.41}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Test Image with Tracking}}{33}{figure.caption.42}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Test Image Correlation with Tracking}}{34}{figure.caption.43}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Test Image Correlation with Zeros}}{34}{figure.caption.44}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Image Correlation Edge Case}}{35}{figure.caption.45}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Blackman LPF in the Frequency Domain}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Precomputation Plots by Image Pixel}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Beam Data, Scan Test 1}}{27}{figure.caption.33}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Converted Image, Scan Test 1}}{27}{figure.caption.34}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Beam Data, Scan Test 2}}{28}{figure.caption.35}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Converted Image, Scan Test 2}}{28}{figure.caption.36}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Beam Data, Scan Test 3}}{29}{figure.caption.37}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Converted Image, Scan Test 3}}{29}{figure.caption.38}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Converted Image, Real Test Data}}{30}{figure.caption.39}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Window/Level Algorithm}}{31}{figure.caption.41}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Final Echo Image with Tracking}}{33}{figure.caption.42}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Final Correlation image with Tracking}}{34}{figure.caption.43}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Test Image with Tracking}}{34}{figure.caption.44}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Test Image Correlation with Tracking}}{35}{figure.caption.45}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Test Image Correlation with Zeros}}{35}{figure.caption.46}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Image Correlation Edge Case}}{36}{figure.caption.47}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Final Output Image}}{37}{figure.caption.48}%
