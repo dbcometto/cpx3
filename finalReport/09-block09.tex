@@ -1,13 +1,14 @@
+% !TEX root =./main.tex
+
+\section{Block 9: Contrast/Brightness - Chen \& Stentiford}
+
+Contrast enhancement is a critical image processing technique used to improve the visibility and
+distinction of objects within an image by adjust the intensity levels of its pixels. Objects of
+interest often lie within certain ranges of gray levels, which requires contrast enhancement to
+highlight these important features.
 
 
-
-
-
-
-
-
-
-
+\subsection{Implementation}
 
 The contrast block is difficult to optimize because the necessity of if-else statements precludes 
 vectorization. To make the costly operation run as quickly as possible, we took the route of 
