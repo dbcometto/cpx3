@@ -21,3 +21,12 @@ tables for cosine and sine which could be used in the actual block instead of ca
 MATLAB's cosine and sine functions. The tables additionally already account for the sampling 
 rate and carrier frequency in order to minimize multiplication operations inside the time-
 sensitive block.
+
+After filtering, to merge the imaginary and real components back into a singal envelope, we 
+simply take the magnitude:
+
+\begin{align*}
+    Y = \sqrt{I^2 + R^2}
+\end{align*}
+
+This is achieved as a single-line vector operation, and so is very performant.
