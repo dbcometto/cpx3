@@ -779,7 +779,7 @@ Stage7_average = mean(stage7_time)
 Stage9_average = mean(stage9_time)
 Stage10_average = mean(stage10_time)
 
-velocity(ft/s)
+velocity
 
 
 
