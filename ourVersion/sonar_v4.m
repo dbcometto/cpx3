@@ -45,6 +45,9 @@ data2 = zeros(N*upsample,num_elements); % preallocate and create zeros vector fo
 beams = zeros(NumBeams, N*upsample);
 demod_I = zeros(NumBeams, N*upsample+10);
 demod_Q = zeros(NumBeams, N*upsample+10);
+demod_I_LPF = zeros(21, 4000);  % Preallocate for Demod LPF
+demod_Q_LPF = zeros(21, 4000);  % Preallocate for Demod LPF
+size(demod_I)
 Mag_image = zeros(N*upsample, NumBeams);
 persist_image = zeros(max_range,(2*max_range + 1));
 SF = zeros(4,1);
@@ -365,13 +368,15 @@ while game_on > 0
    % STAGE 6c: Find magnitude (echo image) from imaginary
    %           Find magnitude of I + jQ
    
+
+   
    time1 = tic;
 
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    
-   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
+   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef)
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
    
    time2 = toc(time1);

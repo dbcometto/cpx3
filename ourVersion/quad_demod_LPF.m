@@ -17,9 +17,10 @@ function [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams,
 %       demod_Q:        quadrature component after LPF
 %
 
-% Precompute the output arrays
-demod_I_LPF = zeros(size(demod_I));
-demod_Q_LPF = zeros(size(demod_Q));
+% Preallocate the output arrays
+%demod_I_LPF = zeros(size(demod_I));
+%demod_Q_LPF = zeros(size(demod_Q));
+%size(demod_I_LPF)
 
 % Loop through each signal
 for i = 1:NumBeams
