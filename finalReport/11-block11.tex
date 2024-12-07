@@ -3,7 +3,7 @@
 \section{Block 11: Tracking/Velocity Estimation - Csicsila}
 
 \subsection{Tracking}
-The tracking feature add quality to the sonar project. Using an 'X' crosshair, this stage successfully follows the most prominent object as it moves across the monitor. To achieve this, the xcorr2 function was used. This function takes the signal and a template and then runs a Cross-correlation algorithm to find which part of the graph most closely matches the template. This is similar to convolution. Once that is complete, the maximum point of the correlation is found and indexed to get the row and col, to overlay the crosshair on the image. 
+The tracking feature add quality to the sonar project. Using an 'X' crosshair, this stage successfully follows the most prominent object as it moves across the monitor. To achieve this, the \code{xcorr2} function was used. This function takes the signal and a template and then runs a Cross-correlation algorithm to find which part of the graph most closely matches the template. This is similar to convolution. Once that is complete, the maximum point of the correlation is found and indexed to get the row and col, to overlay the crosshair on the image. 
 
 The template is comprised of a 4x4 array filled with 1's. This template was chosen with the target in mind. The target was essentially a blob with higher values toward the center. Therefore, the template would correlate with the highest in the middle of that blob. This template plan also worked for the second object that was much longer and thinner than the first object. This is because the middle of that object still had a concentration of higher values which matched with the template.
 
@@ -72,7 +72,7 @@ Figure \ref{fig:TrackingImage6} was created to test the edge cases so prove that
 Velocity was extremely simple to produce. Because the tracking showed the location of the image, a simple distance equation could be used.
 
 \begin{equation}
-    d = \sqrt{(pixel_per_foot_row(x_{2} - x_{1}))^{2} + pixel_per_foot_col((y_{2} - y_{1}))^{2}}
+    d = \sqrt{(pixelPerFootRow(x_{2} - x_{1}))^{2} + pixelPerFootCol(y_{2} - y_{1})^{2}}
     \label{eq:distanceEQ}
 \end{equation}
 
