@@ -49,11 +49,12 @@ improving overall execution speed.
 
 \subsubsection{Magnitude}
 
-After filtering, to merge the imaginary and real components back into a singal envelope, we 
-simply take the magnitude:
+After filtering, the echo image is computed by taking the magnitude of the signal: 
 
 \begin{align*}
     Y = \sqrt{I^2 + R^2}
 \end{align*}
+
+This allows us to merge the imaginary and real components back into a single envelope.
 
 This is achieved as a single-line vector operation, and so is very performant.
