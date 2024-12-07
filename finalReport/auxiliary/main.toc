@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}%
+\contentsline {section}{\numberline {2}Block 1: Noise Removal, Bandwidth Limiting, and Bias Correction - Stentiford}{7}{section.2}%
+\contentsline {section}{\numberline {3}Block 2: Calibration - Stentiford}{9}{section.3}%
+\contentsline {section}{\numberline {4}Block 2 : Time Gain Compensation - Csicsila}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Theory}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analysis}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Performance}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Block 4: Upsampling (2x) - Cometto}{14}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Implementation}{14}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Analysis}{15}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Block 5: Beamforming - Chen}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Implementation}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Analysis}{19}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Block 6: Quadrature Demodulation - Chen \& Stentiford}{21}{section.7}%
+\contentsline {section}{\numberline {8}Block 7: Scan Conversion - Cometto}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Background}{22}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Implementation}{22}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Development Process}{24}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Test and Analysis}{24}{subsection.8.4}%
+\contentsline {section}{\numberline {9}block 9}{30}{section.9}%
+\contentsline {section}{\numberline {10}Block 10: Persistence - Stentiford}{31}{section.10}%
+\contentsline {section}{\numberline {11}Block 11: Tracking/Velocity Estimation - Csicsila}{32}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Tracking}{32}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Velocity}{35}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Conclusion}{36}{section.12}%
