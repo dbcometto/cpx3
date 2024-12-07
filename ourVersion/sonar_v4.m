@@ -686,12 +686,13 @@ while game_on > 0
         
     % Calculate Velocity
        
-        
-        if iii == 5
-            track_arrays = [track_arrays; [track_row,track_col]];
-        elseif iii == 50
-            track_arrays = [track_arrays; [track_row,track_col]];
-            velocity = calc_velocity(track_arrays(1, 1),track_arrays(1,2), track_arrays(2, 1),track_arrays(2,2), 2*pixel_per_foot_row, 2*pixels_per_foot_col, USampleRate, 45);
+        if continuous == 1
+            if iii == 5
+                track_arrays = [track_arrays; [track_row,track_col]];
+            elseif iii == 50
+                track_arrays = [track_arrays; [track_row,track_col]];
+                velocity = calc_velocity(track_arrays(1, 1),track_arrays(1,2), track_arrays(2, 1),track_arrays(2,2), 2*pixel_per_foot_row, 2*pixels_per_foot_col, USampleRate, 45);
+            end
         end
 
        
@@ -787,7 +788,8 @@ Stage7_average = mean(stage7_time)
 Stage9_average = mean(stage9_time)
 Stage10_average = mean(stage10_time)
 
-velocity
-
+if continuous == 1
+    velocity
+end
 
 
