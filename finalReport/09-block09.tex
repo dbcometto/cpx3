@@ -10,7 +10,18 @@ highlight these important features.
 
 \subsection{Implementation}
 
-The contrast block is difficult to optimize because the necessity of if-else statements precludes 
+To implement contrast enhancement, we utilized the window/level algorithm, as seen in Figure 1.
+The algorithm takes each pixel value and determines whether to supress or enhance the pixel's
+brightness with threshold values.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figures/windowlevelalgorithm.png}
+    \caption{Window/Level Algorithm}
+    \label{fig:window/levelalgorithm}
+\end{figure}
+
+The contrast stage is difficult to optimize because the necessity of if-else statements precludes 
 vectorization. To make the costly operation run as quickly as possible, we took the route of 
 writing a native library for MATLAB in C (see contrastFix.c) to perform the operation. Not only 
 are for loops written in C more performant compared to their MATLAB counterparts, C also allows 
