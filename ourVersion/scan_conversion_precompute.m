@@ -8,7 +8,17 @@ function [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, rppf, cppf
 % by Ben Cometto
 %
 %   INPUTS
-%       Mag_image   :     image before scan conversion
+%       fc          :     pulse frequency (Hz)
+%       Fs          :     sampling frequency (Hz) 
+%       C           :     speed of sound (feet/s)
+%       h           :     Mag_image height (number of beams) 
+%       w           :     Mag_image width (number of samples)  
+%       shift       :     shift required for positive beam indexes  
+%       imager      :     number of rows in output image
+%       imagec      :     number of columns in output image
+%
+%
+%   OUTPUTS
 %       ind_bkn     :     indices for beam data at k and n
 %       ind_bk1n    :     indices for beam data at k+1 and n
 %       ind_bkn1    :     indices for beam data at k and n+1
@@ -17,10 +27,6 @@ function [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, rppf, cppf
 %       BMA         :     per pixel (1-beta)*(alpha) values
 %       BAM         :     per pixel (beta)*(1-alpha) values
 %       BA          :     per pixel (beta)*(alpha) values
-%
-%   OUTPUTS
-%       image       :     scan converted image
-%
 
 
 ishiftc = floor(imagec/2);

@@ -11,14 +11,16 @@ report/auxiliary/main.toc
 report/auxiliary/main.fdb_latexmk
 report/main.pdf
 report/main.synctex.gz
-.vscode
 
+.vscode
+finalReport/auxiliary
+*.ps
 finalReport/auxiliary/main.fls
 finalReport/auxiliary/main.log
 finalReport/auxiliary/main.lot
 finalReport/auxiliary/main.out
 finalReport/auxiliary/main.toc
 finalReport/auxiliary/main.fdb_latexmk
-finalReport/main.pdf
+finalReport/auxiliary/*
 finalReport/main.synctex.gz
-finalReport/auxiliary
+*.gz
