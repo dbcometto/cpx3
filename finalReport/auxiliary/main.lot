@@ -1,3 +1,5 @@
-\contentsline {table}{\numberline {1}{\ignorespaces Performance of TGC}}{11}{table.caption.15}%
-\contentsline {table}{\numberline {2}{\ignorespaces Parameters for Upsampling Low Pass Filter}}{13}{table.caption.16}%
-\contentsline {table}{\numberline {3}{\ignorespaces Provided vs Rewritten Upsampling Function Performance}}{16}{table.caption.24}%
+\contentsline {table}{\numberline {1}{\ignorespaces Performance of TGC}}{12}{table.caption.15}%
+\contentsline {table}{\numberline {2}{\ignorespaces Parameters for Upsampling Low Pass Filter}}{14}{table.caption.16}%
+\contentsline {table}{\numberline {3}{\ignorespaces Provided vs Rewritten Upsampling Function Performance}}{17}{table.caption.24}%
+\contentsline {table}{\numberline {4}{\ignorespaces Precomputed Values for Scan Conversion}}{22}{table.caption.30}%
+\contentsline {table}{\numberline {5}{\ignorespaces Provided vs Rewritten Scan Conversion Performance}}{29}{table.caption.39}%
