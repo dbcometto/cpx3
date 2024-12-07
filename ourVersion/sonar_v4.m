@@ -368,6 +368,19 @@ while game_on > 0
    % STAGE 6c: Find magnitude (echo image) from imaginary
    %           Find magnitude of I + jQ
    
+   % TEST DATA - UNCOMMENT TO USE
+   % Using a sinwave for all channels, we can test the beamform on various
+   % frequencies to see waves in our final beamform image.
+   %x = 2;    % adjust x for different frequencies
+   %t = 1:4000;
+   
+   %size(beams)
+   %NumBeams
+   %channel = sin(t/x);
+   %beams = [channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel', channel'];
+   %size(beams.')
+   
+   
    time1 = tic;
 
    [demod_I, demod_Q] = quad_demod_mix(beams, NumBeams, cos_table, sin_table);
@@ -648,6 +661,7 @@ while game_on > 0
    %
 
    % SINGLE object tracking
+   
         template = ones(4,4);
         
         %returns the value to plot for tracking
@@ -670,7 +684,7 @@ while game_on > 0
             end
             avg_velocity = mean(velocity_array)
         end
-        
+   
        
 
     %TWO object tracking
