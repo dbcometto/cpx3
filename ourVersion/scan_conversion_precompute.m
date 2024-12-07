@@ -1,4 +1,4 @@
-function [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, rfpp, cfpp] = scan_conversion_precompute(fc, Fs, C, h, w, shift, imager, imagec)
+function [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, rppf, cppf] = scan_conversion_precompute(fc, Fs, C, h, w, shift, imager, imagec)
 % Scan Conversion
 %   Uses complex lookup tables to properly plot the "beams" in their 
 %   actual spatial geometry.
@@ -8,7 +8,17 @@ function [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, rfpp, cfpp
 % by Ben Cometto
 %
 %   INPUTS
-%       Mag_image   :     image before scan conversion
+%       fc          :     pulse frequency (Hz)
+%       Fs          :     sampling frequency (Hz) 
+%       C           :     speed of sound (feet/s)
+%       h           :     Mag_image height (number of beams) 
+%       w           :     Mag_image width (number of samples)  
+%       shift       :     shift required for positive beam indexes  
+%       imager      :     number of rows in output image
+%       imagec      :     number of columns in output image
+%
+%
+%   OUTPUTS
 %       ind_bkn     :     indices for beam data at k and n
 %       ind_bk1n    :     indices for beam data at k+1 and n
 %       ind_bkn1    :     indices for beam data at k and n+1
@@ -17,10 +27,6 @@ function [ind_bkn, ind_bk1n, ind_bkn1, ind_bk1n1, BMAM, BMA, BAM, BA, rfpp, cfpp
 %       BMA         :     per pixel (1-beta)*(alpha) values
 %       BAM         :     per pixel (beta)*(1-alpha) values
 %       BA          :     per pixel (beta)*(alpha) values
-%
-%   OUTPUTS
-%       image       :     scan converted image
-%
 
 
 ishiftc = floor(imagec/2);
@@ -36,15 +42,15 @@ end
 % Precompute rs
 rs = zeros(h,w);
 for n=0:h-1
-    rs(n+1,:) = n*C/Fs;
+    rs(n+1,:) = n*C/Fs/2;
 end
 rs;
 
 % Precompute max distance and ratios
-max_distance = 4000*C/Fs;
+max_distance = 4000*C/Fs/2;
 
-rfpp = (imager-1)/rs(end,1);
-cfpp = (imagec/2-1)/rs(end,1);
+rppf = (imager-1)/rs(end,1); % pixels per foot
+cppf = (imagec/2-1)/rs(end,1);
 
 % Precomute indexes and alphas/betas
 KKNvals = zeros(imager,imagec,2);
@@ -56,8 +62,8 @@ for pc = 1:imagec
     for pr = 1:imager
 
         % Establish x and y
-        px = (pc-1-ishiftc)/cfpp;
-        py = (pr-1)/rfpp;        
+        px = (pc-1-ishiftc)/cppf;
+        py = (pr-1)/rppf;        
 
         % Establish rp and thetap
         rp = sqrt(px^2+py^2);
@@ -73,7 +79,7 @@ for pc = 1:imagec
         k = floor(kp);
         kk = k+shift;
 
-        np = rp/C*Fs;
+        np = rp/C*Fs*2;
         n = floor(np)+1;  
 
         if (kk < 21) % bound kk
