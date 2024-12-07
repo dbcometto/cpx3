@@ -14,5 +14,5 @@
 \contentsline {section}{\numberline {7}Block 7: Scan Conversion - Cometto}{20}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Background}{20}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Implementation}{20}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Analysis}{21}{subsection.7.3}%
-\contentsline {section}{\numberline {8}Conclusion}{25}{section.8}%
+\contentsline {subsection}{\numberline {7.3}Analysis}{22}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Conclusion}{26}{section.8}%
