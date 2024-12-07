@@ -7,7 +7,7 @@ function cpx3_sonar_v4
 
 % Default Parameters
 format LONG        % increases the percision of numbers printed on the command line
-continuous = 0.0;  % 0 means only do one image; >0 means continuously create sonar images
+continuous = 1.0;  % 0 means only do one image; >0 means continuously create sonar images
 live = 0.0;        % 0 means artficial data; >0 means live data from A/D board
 show_images = 0; % 0 means do not show intermediate stages images; 1 means show all images
 persist = 0.75;     % ranges from 0.0 for no persistence to 1.0 for maximum persistence
@@ -376,8 +376,13 @@ while game_on > 0
 
    %save("quad_test.mat", "beams", "demod_Q", "demod_I", "frequency")
    
+<<<<<<< HEAD
    [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef)
    [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF, NumBeams, FrameSize*upsample);
+=======
+   [demod_I_LPF, demod_Q_LPF] = quad_demod_LPF(demod_I, demod_Q, NumBeams, filter_coef);
+   [Mag_image] = magnitude(demod_I_LPF, demod_Q_LPF);
+>>>>>>> 14187c5a4ba9515495ca9c769dbb67d989c2ca7f
    
    time2 = toc(time1);
    Stage6_demod_time = time2
@@ -648,46 +653,75 @@ while game_on > 0
    % the template image is a block 2x2 1's to represent the most filled in
    % part of the image
    %
-    template = [1 1;
-                1 1];
-    
-    %returns the value to plot for tracking
-    [track_row,track_col] = tracking(persist_image, template);
+
+   % SINGLE object tracking
+        template = ones(4,4);
+        
+        %returns the value to plot for tracking
+        [track_row,track_col] = tracking(persist_image, template);
+       
+        %overlays onto figure(27)
+        hold on;
+        % x over target
+        plot(track_col, track_row, 'x', 'MarkerSize',20, 'LineWidth', 2, 'Color', 'red')
+        hold off;
+
+        
+    % Calculate Velocity
+        if iii ~= 120   % for test_data3
+            track_arrays = [track_arrays; [track_row,track_col]];
+        else
+            velocity_array = [];
+            for i = 1:size(track_arrays, 1) - 1
+                velocity_array = [velocity_array, calc_velocity([track_array(i, 1),track_array(i,2)], [track_array(i+1, 1),track_array(i+1,2)], 4.4, 4.4, Fs_out)];
+            end
+            avg_velocity = mean(velocity_array)
+        end
+        
+       
+
+    %TWO object tracking
+%         track_raw_data = persist_image;
+%     
+%         template = ones(4,4);
+%         offset = 15;
+%         
+%         %trim data to avoid edge case
+%         track_data = track_raw_data(1+offset:end-offset,1+offset:end-offset);
+%         
+%         %performs correlation
+%         [track_row, track_col] = tracking(track_data, template);
+%         
+%         %plot image
+%         figure(28)
+%         imagesc(track_raw_data)
+%         
+%         %overlays onto figure(27)
+%         hold on;
+%         % x over target
+%         plot(track_col+offset, track_row+offset, '+', 'MarkerSize',20, 'LineWidth', 2, 'Color', 'red')
+%         % circle over target
+%         %     plot(track_col, track_row, 'o', 'MarkerSize',50, 'LineWidth', 2, 'Color', 'red')
+%         hold off;
+%         
+%         %remove max values for second target tracking
+%         track_data(track_row-offset:track_row+offset, track_col-offset:track_col+offset) = 0;
+%         
+%         
+%         [track_row, track_col] = tracking(track_data, template);
+%         
+%         
+%         %overlays onto figure(27)
+%         hold on;
+%         % x over target
+%         plot(track_col+offset, track_row+offset, 'x', 'MarkerSize',20, 'LineWidth', 2, 'Color', 'red')
+%         % circle over target
+%         %     plot(track_col, track_row, 'o', 'MarkerSize',50, 'LineWidth', 2, 'Color', 'red')
+%         hold off;
+
+
    
-    %overlays onto figure(27)
-    hold on;
-    % x over target
-    plot(track_col, track_row, 'x', 'MarkerSize',20, 'LineWidth', 2, 'Color', 'red')
-    % circle over target
-%     plot(track_col, track_row, 'o', 'MarkerSize',50, 'LineWidth', 2, 'Color', 'red')
-    hold off;
-   
     
-
-
-
-   %    Various methods?
-   %    - Sliding FFT (maybe FFT over 8 frames)for doppler
-   %           doppler frequency shift porportional to velocity.
-   %           are 8 frequency bins enough to detect velocity?
-   %    - Correlation: with expected returned pulse shape
-   %            see Matlab's xcorr (1-D) or xcorr2 (2-D)
-   %         1-D options
-   %         -- along beams before demodulation (pulse is 6 cycles of
-   %         sinusiod)
-   %         -- along beams after demodulation (pulse is a "rect" of length
-   %         of 6 cycles of the sinusiod)
-   %         2-D options
-   %         -- image after scan conversion (need to estimate "blob" size)
-   %    - Other image processing type tracking algorithm?
-   %
-   %    How to display?  most useful is to plot a color graphic (like a dot
-   %    or cross-hairs) on sonar image, showing where you estimate target
-   %    is on sonar image.
-   %
-   %    Measure velocity?  could calculate how far target moved between
-   %    images
-   %
    
    
    
